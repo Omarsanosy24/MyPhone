@@ -1,0 +1,3427 @@
+openapi: 3.0.3
+info:
+  title: MyPhone Project API
+  version: alpha
+paths:
+  /api/auth/token:
+    post:
+      operationId: api_auth_token_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/AuthToken'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/AuthToken'
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthToken'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthToken'
+          description: ''
+  /api/customers:
+    get:
+      operationId: api_customers_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedCustomerList'
+          description: ''
+    post:
+      operationId: api_customers_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Customer'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Customer'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+          description: ''
+  /api/customers/{id}:
+    get:
+      operationId: api_customers_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this customer.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+          description: ''
+    put:
+      operationId: api_customers_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this customer.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Customer'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Customer'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+          description: ''
+    patch:
+      operationId: api_customers_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this customer.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedCustomer'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedCustomer'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedCustomer'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+          description: ''
+    delete:
+      operationId: api_customers_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this customer.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/categories:
+    get:
+      operationId: api_device_categories_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedCategoryList'
+          description: ''
+    post:
+      operationId: api_device_categories_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Category'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Category'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Category'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Category'
+          description: ''
+  /api/device/categories/{id}:
+    get:
+      operationId: api_device_categories_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this category.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Category'
+          description: ''
+    put:
+      operationId: api_device_categories_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this category.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Category'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Category'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Category'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Category'
+          description: ''
+    patch:
+      operationId: api_device_categories_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this category.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedCategory'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedCategory'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedCategory'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Category'
+          description: ''
+    delete:
+      operationId: api_device_categories_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this category.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/companies:
+    get:
+      operationId: api_device_companies_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedCompanyList'
+          description: ''
+    post:
+      operationId: api_device_companies_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Company'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Company'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+  /api/device/companies/{id}:
+    get:
+      operationId: api_device_companies_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this company.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+    put:
+      operationId: api_device_companies_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this company.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Company'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Company'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Company'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+    patch:
+      operationId: api_device_companies_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this company.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedCompany'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedCompany'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedCompany'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
+    delete:
+      operationId: api_device_companies_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this company.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/devices:
+    get:
+      operationId: api_device_devices_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedDeviceList'
+          description: ''
+    post:
+      operationId: api_device_devices_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Device'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Device'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Device'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Device'
+          description: ''
+  /api/device/devices/{id}:
+    get:
+      operationId: api_device_devices_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this device.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Device'
+          description: ''
+    put:
+      operationId: api_device_devices_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this device.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Device'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Device'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Device'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Device'
+          description: ''
+    patch:
+      operationId: api_device_devices_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this device.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedDevice'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedDevice'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedDevice'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Device'
+          description: ''
+    delete:
+      operationId: api_device_devices_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this device.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/models:
+    get:
+      operationId: api_device_models_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedModelList'
+          description: ''
+    post:
+      operationId: api_device_models_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Model'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Model'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Model'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+          description: ''
+  /api/device/models-variants:
+    get:
+      operationId: api_device_models_variants_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - in: query
+        name: model__id
+        schema:
+          type: integer
+      - in: query
+        name: model__name
+        schema:
+          type: string
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedModelVariantList'
+          description: ''
+    post:
+      operationId: api_device_models_variants_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ModelVariant'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/ModelVariant'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/ModelVariant'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelVariant'
+          description: ''
+  /api/device/models-variants/{id}:
+    get:
+      operationId: api_device_models_variants_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model variant.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelVariant'
+          description: ''
+    put:
+      operationId: api_device_models_variants_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model variant.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ModelVariant'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/ModelVariant'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/ModelVariant'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelVariant'
+          description: ''
+    patch:
+      operationId: api_device_models_variants_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model variant.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedModelVariant'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedModelVariant'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedModelVariant'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ModelVariant'
+          description: ''
+    delete:
+      operationId: api_device_models_variants_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model variant.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/models/{id}:
+    get:
+      operationId: api_device_models_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+          description: ''
+    put:
+      operationId: api_device_models_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Model'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Model'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Model'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+          description: ''
+    patch:
+      operationId: api_device_models_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedModel'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedModel'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedModel'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+          description: ''
+    delete:
+      operationId: api_device_models_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/models/{id}/available_variants:
+    get:
+      operationId: api_device_models_available_variants_retrieve
+      description: Retrieve the variants existing in stock for this model.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+              examples:
+                ? ''
+                : value:
+                  - Storage: 256G
+                    Color: Red
+          description: ''
+  /api/device/models/{id}/variants:
+    get:
+      operationId: api_device_models_variants_retrieve_2
+      description: Retrieve the existing variants, even if not in stock.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this model.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Model'
+              examples:
+                ? ''
+                : value:
+                    Storage:
+                    - 128G
+                    Color:
+                    - Red
+          description: ''
+  /api/device/products:
+    get:
+      operationId: api_device_products_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedProductList'
+          description: ''
+    post:
+      operationId: api_device_products_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Product'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+  /api/device/products/{id}:
+    get:
+      operationId: api_device_products_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this product.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+    put:
+      operationId: api_device_products_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this product.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Product'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Product'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Product'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+    patch:
+      operationId: api_device_products_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this product.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedProduct'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedProduct'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedProduct'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
+    delete:
+      operationId: api_device_products_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this product.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/series:
+    get:
+      operationId: api_device_series_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedSeriesList'
+          description: ''
+    post:
+      operationId: api_device_series_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Series'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Series'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Series'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Series'
+          description: ''
+  /api/device/series/{id}:
+    get:
+      operationId: api_device_series_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this series.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Series'
+          description: ''
+    put:
+      operationId: api_device_series_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this series.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Series'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Series'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Series'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Series'
+          description: ''
+    patch:
+      operationId: api_device_series_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this series.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedSeries'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedSeries'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedSeries'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Series'
+          description: ''
+    delete:
+      operationId: api_device_series_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this series.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/variants-groups:
+    get:
+      operationId: api_device_variants_groups_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedVariantGroupList'
+          description: ''
+    post:
+      operationId: api_device_variants_groups_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VariantGroup'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/VariantGroup'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/VariantGroup'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantGroup'
+          description: ''
+  /api/device/variants-groups/{id}:
+    get:
+      operationId: api_device_variants_groups_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant group.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantGroup'
+          description: ''
+    put:
+      operationId: api_device_variants_groups_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant group.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VariantGroup'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/VariantGroup'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/VariantGroup'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantGroup'
+          description: ''
+    patch:
+      operationId: api_device_variants_groups_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant group.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedVariantGroup'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedVariantGroup'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedVariantGroup'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantGroup'
+          description: ''
+    delete:
+      operationId: api_device_variants_groups_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant group.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/device/variants-values:
+    get:
+      operationId: api_device_variants_values_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedVariantValueList'
+          description: ''
+    post:
+      operationId: api_device_variants_values_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VariantValue'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/VariantValue'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/VariantValue'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantValue'
+          description: ''
+  /api/device/variants-values/{id}:
+    get:
+      operationId: api_device_variants_values_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant value.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantValue'
+          description: ''
+    put:
+      operationId: api_device_variants_values_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant value.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VariantValue'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/VariantValue'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/VariantValue'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantValue'
+          description: ''
+    patch:
+      operationId: api_device_variants_values_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant value.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedVariantValue'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedVariantValue'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedVariantValue'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VariantValue'
+          description: ''
+    delete:
+      operationId: api_device_variants_values_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this variant value.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/lines:
+    get:
+      operationId: api_lines_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedLineList'
+          description: ''
+    post:
+      operationId: api_lines_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Line'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Line'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Line'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Line'
+          description: ''
+  /api/lines/{id}:
+    get:
+      operationId: api_lines_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this line.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Line'
+          description: ''
+    put:
+      operationId: api_lines_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this line.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Line'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Line'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Line'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Line'
+          description: ''
+    patch:
+      operationId: api_lines_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this line.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedLine'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedLine'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedLine'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Line'
+          description: ''
+    delete:
+      operationId: api_lines_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this line.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/me:
+    get:
+      operationId: api_me_retrieve
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/orders:
+    get:
+      operationId: api_orders_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - in: query
+        name: reference
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      - in: query
+        name: type
+        schema:
+          type: string
+          enum:
+          - b
+          - r
+          - s
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedOrderList'
+          description: ''
+    post:
+      operationId: api_orders_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Order'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Order'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+          description: ''
+  /api/orders/{id}:
+    get:
+      operationId: api_orders_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this order.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+          description: ''
+    put:
+      operationId: api_orders_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this order.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Order'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Order'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+          description: ''
+    patch:
+      operationId: api_orders_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this order.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedOrder'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedOrder'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedOrder'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+          description: ''
+    delete:
+      operationId: api_orders_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this order.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/users:
+    get:
+      operationId: api_users_list
+      parameters:
+      - name: limit
+        required: false
+        in: query
+        description: Number of results to return per page.
+        schema:
+          type: integer
+      - name: offset
+        required: false
+        in: query
+        description: The initial index from which to return the results.
+        schema:
+          type: integer
+      - name: ordering
+        required: false
+        in: query
+        description: Which field to use when ordering the results.
+        schema:
+          type: string
+      - name: search
+        required: false
+        in: query
+        description: A search term.
+        schema:
+          type: string
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PaginatedUserList'
+          description: ''
+    post:
+      operationId: api_users_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/User'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+  /api/users/{id}:
+    get:
+      operationId: api_users_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+    put:
+      operationId: api_users_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/User'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/User'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/User'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+    patch:
+      operationId: api_users_partial_update
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedUser'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedUser'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedUser'
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+    delete:
+      operationId: api_users_destroy
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/users/{id}/history:
+    get:
+      operationId: api_users_history_retrieve
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this user.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+          description: ''
+  /private-smoke:
+    get:
+      operationId: private_smoke_retrieve
+      tags:
+      - private-smoke
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          description: No response body
+  /smoke:
+    get:
+      operationId: smoke_retrieve
+      tags:
+      - smoke
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          description: No response body
+components:
+  schemas:
+    AuthToken:
+      type: object
+      properties:
+        username:
+          type: string
+          writeOnly: true
+        password:
+          type: string
+          writeOnly: true
+        token:
+          type: string
+          readOnly: true
+      required:
+      - password
+      - token
+      - username
+    Category:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+      required:
+      - id
+      - imageUrl
+      - name
+      - str
+      - url
+    CategoryInfo:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+      required:
+      - id
+      - name
+    Company:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+      required:
+      - id
+      - imageUrl
+      - name
+      - str
+      - url
+    CompanyInfo:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+      required:
+      - id
+      - name
+    Customer:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 128
+        address:
+          type: string
+      required:
+      - address
+      - id
+      - name
+      - str
+      - url
+    Device:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        imei:
+          type: string
+          maxLength: 16
+          minLength: 15
+        serial_number:
+          type: string
+          maxLength: 64
+        model_variant:
+          type: string
+          format: uri
+      required:
+      - id
+      - imei
+      - model_variant
+      - serial_number
+      - str
+      - url
+    Line:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        sub_total:
+          type: string
+          readOnly: true
+        quantity:
+          type: integer
+          minimum: 1
+        model_variant:
+          type: string
+          format: uri
+        order:
+          type: string
+          format: uri
+      required:
+      - id
+      - model_variant
+      - order
+      - quantity
+      - str
+      - sub_total
+      - url
+    Model:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        seriesInfo:
+          allOf:
+          - $ref: '#/components/schemas/SeriesInfo'
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+        series:
+          type: string
+          format: uri
+      required:
+      - id
+      - imageUrl
+      - name
+      - series
+      - seriesInfo
+      - str
+      - url
+    ModelInfo:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+      required:
+      - id
+      - name
+    ModelVariant:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        modelInfo:
+          allOf:
+          - $ref: '#/components/schemas/ModelInfo'
+          readOnly: true
+        price:
+          type: number
+          format: double
+        model:
+          type: string
+          format: uri
+        values:
+          type: array
+          items:
+            type: string
+            format: uri
+      required:
+      - id
+      - model
+      - modelInfo
+      - price
+      - str
+      - url
+      - values
+    Order:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        price:
+          type: string
+          readOnly: true
+        lines:
+          type: array
+          items:
+            $ref: '#/components/schemas/Line'
+          readOnly: true
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        reference:
+          type: string
+          readOnly: true
+        customer:
+          type: string
+          format: uri
+      required:
+      - customer
+      - id
+      - lines
+      - price
+      - reference
+      - str
+      - type
+      - url
+    PaginatedCategoryList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+    PaginatedCompanyList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Company'
+    PaginatedCustomerList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Customer'
+    PaginatedDeviceList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Device'
+    PaginatedLineList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Line'
+    PaginatedModelList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Model'
+    PaginatedModelVariantList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/ModelVariant'
+    PaginatedOrderList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Order'
+    PaginatedProductList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Product'
+    PaginatedSeriesList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Series'
+    PaginatedUserList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/User'
+    PaginatedVariantGroupList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/VariantGroup'
+    PaginatedVariantValueList:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 123
+        next:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=400&limit=100
+        previous:
+          type: string
+          nullable: true
+          format: uri
+          example: http://api.example.org/accounts/?offset=200&limit=100
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/VariantValue'
+    PatchedCategory:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+    PatchedCompany:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+    PatchedCustomer:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 128
+        address:
+          type: string
+    PatchedDevice:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        imei:
+          type: string
+          maxLength: 16
+          minLength: 15
+        serial_number:
+          type: string
+          maxLength: 64
+        model_variant:
+          type: string
+          format: uri
+    PatchedLine:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        sub_total:
+          type: string
+          readOnly: true
+        quantity:
+          type: integer
+          minimum: 1
+        model_variant:
+          type: string
+          format: uri
+        order:
+          type: string
+          format: uri
+    PatchedModel:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        seriesInfo:
+          allOf:
+          - $ref: '#/components/schemas/SeriesInfo'
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+        series:
+          type: string
+          format: uri
+    PatchedModelVariant:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        modelInfo:
+          allOf:
+          - $ref: '#/components/schemas/ModelInfo'
+          readOnly: true
+        price:
+          type: number
+          format: double
+        model:
+          type: string
+          format: uri
+        values:
+          type: array
+          items:
+            type: string
+            format: uri
+    PatchedOrder:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        price:
+          type: string
+          readOnly: true
+        lines:
+          type: array
+          items:
+            $ref: '#/components/schemas/Line'
+          readOnly: true
+        type:
+          $ref: '#/components/schemas/TypeEnum'
+        reference:
+          type: string
+          readOnly: true
+        customer:
+          type: string
+          format: uri
+    PatchedProduct:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        companyInfo:
+          allOf:
+          - $ref: '#/components/schemas/CompanyInfo'
+          readOnly: true
+        categoryInfo:
+          allOf:
+          - $ref: '#/components/schemas/CategoryInfo'
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+        company:
+          type: string
+          format: uri
+        category:
+          type: string
+          format: uri
+    PatchedSeries:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        productInfo:
+          allOf:
+          - $ref: '#/components/schemas/ProductInfo'
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+        product:
+          type: string
+          format: uri
+    PatchedUser:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        username:
+          type: string
+          description: Required. 150 characters or fewer. Letters, digits and @/./+/-/_
+            only.
+          pattern: ^[\w.@+-]+$
+          maxLength: 150
+        email:
+          type: string
+          format: email
+          title: Email address
+          maxLength: 254
+        is_staff:
+          type: boolean
+          title: Staff status
+          description: Designates whether the user can log into this admin site.
+    PatchedVariantGroup:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+    PatchedVariantValue:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        value:
+          type: string
+          maxLength: 32
+        group:
+          type: string
+          format: uri
+    Product:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        companyInfo:
+          allOf:
+          - $ref: '#/components/schemas/CompanyInfo'
+          readOnly: true
+        categoryInfo:
+          allOf:
+          - $ref: '#/components/schemas/CategoryInfo'
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+        company:
+          type: string
+          format: uri
+        category:
+          type: string
+          format: uri
+      required:
+      - category
+      - categoryInfo
+      - company
+      - companyInfo
+      - id
+      - imageUrl
+      - name
+      - str
+      - url
+    ProductInfo:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+      required:
+      - id
+      - name
+    Series:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        productInfo:
+          allOf:
+          - $ref: '#/components/schemas/ProductInfo'
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+        imageUrl:
+          type: string
+          maxLength: 128
+        product:
+          type: string
+          format: uri
+      required:
+      - id
+      - imageUrl
+      - name
+      - product
+      - productInfo
+      - str
+      - url
+    SeriesInfo:
+      type: object
+      properties:
+        id:
+          type: integer
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+      required:
+      - id
+      - name
+    TypeEnum:
+      enum:
+      - b
+      - s
+      - r
+      type: string
+    User:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        username:
+          type: string
+          description: Required. 150 characters or fewer. Letters, digits and @/./+/-/_
+            only.
+          pattern: ^[\w.@+-]+$
+          maxLength: 150
+        email:
+          type: string
+          format: email
+          title: Email address
+          maxLength: 254
+        is_staff:
+          type: boolean
+          title: Staff status
+          description: Designates whether the user can log into this admin site.
+      required:
+      - url
+      - username
+    VariantGroup:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        name:
+          type: string
+          maxLength: 32
+      required:
+      - id
+      - name
+      - str
+      - url
+    VariantValue:
+      type: object
+      properties:
+        url:
+          type: string
+          format: uri
+          readOnly: true
+        id:
+          type: integer
+          readOnly: true
+        str:
+          type: string
+          readOnly: true
+        value:
+          type: string
+          maxLength: 32
+        group:
+          type: string
+          format: uri
+      required:
+      - group
+      - id
+      - str
+      - url
+      - value
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: sessionid
+    tokenAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: Token-based authentication with required prefix "Token"

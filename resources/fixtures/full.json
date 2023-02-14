@@ -1,0 +1,5217 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 6,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 6,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 6,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 6,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add token",
+    "content_type": 7,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change token",
+    "content_type": 7,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete token",
+    "content_type": 7,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view token",
+    "content_type": 7,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add historical user",
+    "content_type": 8,
+    "codename": "add_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change historical user",
+    "content_type": 8,
+    "codename": "change_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete historical user",
+    "content_type": 8,
+    "codename": "delete_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view historical user",
+    "content_type": 8,
+    "codename": "view_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add customer",
+    "content_type": 10,
+    "codename": "add_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change customer",
+    "content_type": 10,
+    "codename": "change_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete customer",
+    "content_type": 10,
+    "codename": "delete_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view customer",
+    "content_type": 10,
+    "codename": "view_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add company",
+    "content_type": 11,
+    "codename": "add_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change company",
+    "content_type": 11,
+    "codename": "change_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete company",
+    "content_type": 11,
+    "codename": "delete_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view company",
+    "content_type": 11,
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 12,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 12,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 12,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 12,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 13,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 13,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 13,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 13,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add series",
+    "content_type": 14,
+    "codename": "add_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change series",
+    "content_type": 14,
+    "codename": "change_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete series",
+    "content_type": 14,
+    "codename": "delete_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view series",
+    "content_type": 14,
+    "codename": "view_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add model",
+    "content_type": 15,
+    "codename": "add_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change model",
+    "content_type": 15,
+    "codename": "change_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete model",
+    "content_type": 15,
+    "codename": "delete_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view model",
+    "content_type": 15,
+    "codename": "view_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add variant group",
+    "content_type": 16,
+    "codename": "add_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change variant group",
+    "content_type": 16,
+    "codename": "change_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete variant group",
+    "content_type": 16,
+    "codename": "delete_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view variant group",
+    "content_type": 16,
+    "codename": "view_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add variant value",
+    "content_type": 17,
+    "codename": "add_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change variant value",
+    "content_type": 17,
+    "codename": "change_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete variant value",
+    "content_type": 17,
+    "codename": "delete_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view variant value",
+    "content_type": 17,
+    "codename": "view_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add model variant",
+    "content_type": 18,
+    "codename": "add_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change model variant",
+    "content_type": 18,
+    "codename": "change_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete model variant",
+    "content_type": 18,
+    "codename": "delete_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view model variant",
+    "content_type": 18,
+    "codename": "view_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add device",
+    "content_type": 19,
+    "codename": "add_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change device",
+    "content_type": 19,
+    "codename": "change_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete device",
+    "content_type": 19,
+    "codename": "delete_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view device",
+    "content_type": 19,
+    "codename": "view_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 20,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 20,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 20,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 20,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add line",
+    "content_type": 21,
+    "codename": "add_line"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change line",
+    "content_type": 21,
+    "codename": "change_line"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete line",
+    "content_type": 21,
+    "codename": "delete_line"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view line",
+    "content_type": 21,
+    "codename": "view_line"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "historicaluser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "customer",
+    "model": "customer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "device",
+    "model": "company"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "device",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "device",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "device",
+    "model": "series"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "device",
+    "model": "model"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "device",
+    "model": "variantgroup"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "device",
+    "model": "variantvalue"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "device",
+    "model": "modelvariant"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "device",
+    "model": "device"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "order",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "order",
+    "model": "line"
+  }
+},
+{
+  "model": "core.historicaluser",
+  "pk": 1,
+  "fields": {
+    "id": 1,
+    "password": "pbkdf2_sha256$390000$fn7MnKI9TtVm1IPK07pGaI$I+IM/g6rmCZ8d7u10OWMYcTSAVgAzBEPR5n4UDjTP/Q=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-13T13:28:21.991Z",
+    "history_date": "2023-02-13T13:28:22.323Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": null
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$fn7MnKI9TtVm1IPK07pGaI$I+IM/g6rmCZ8d7u10OWMYcTSAVgAzBEPR5n4UDjTP/Q=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-13T13:28:21.991Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "customer.customer",
+  "pk": 1,
+  "fields": {
+    "name": "Zayd",
+    "address": "721 Micheal Ranch\nNorth Emilyborough, CO 89852"
+  }
+},
+{
+  "model": "customer.customer",
+  "pk": 2,
+  "fields": {
+    "name": "Bakr",
+    "address": "487 Amanda Branch Suite 560\nSouth Katelynville, ND 24406"
+  }
+},
+{
+  "model": "device.company",
+  "pk": 1,
+  "fields": {
+    "name": "Apple",
+    "imageUrl": "/images/models/iphone/web_ip13promax.png"
+  }
+},
+{
+  "model": "device.company",
+  "pk": 2,
+  "fields": {
+    "name": "Samsung",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png"
+  }
+},
+{
+  "model": "device.category",
+  "pk": 1,
+  "fields": {
+    "name": "Smartphone",
+    "imageUrl": "/images/models/iphone/web_ip13promax.png"
+  }
+},
+{
+  "model": "device.product",
+  "pk": 1,
+  "fields": {
+    "name": "iPhone",
+    "imageUrl": "/images/models/iphone/web_ip13promax.png",
+    "company": 1,
+    "category": 1
+  }
+},
+{
+  "model": "device.product",
+  "pk": 2,
+  "fields": {
+    "name": "Galaxy",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+    "company": 2,
+    "category": 1
+  }
+},
+{
+  "model": "device.series",
+  "pk": 1,
+  "fields": {
+    "name": "iPhone",
+    "imageUrl": "/images/models/iphone/web_ip13promax.png",
+    "product": 1
+  }
+},
+{
+  "model": "device.series",
+  "pk": 2,
+  "fields": {
+    "name": "S",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+    "product": 2
+  }
+},
+{
+  "model": "device.series",
+  "pk": 3,
+  "fields": {
+    "name": "Note",
+    "imageUrl": "/images/models/samsung/web_note20.png",
+    "product": 2
+  }
+},
+{
+  "model": "device.series",
+  "pk": 4,
+  "fields": {
+    "name": "Z",
+    "imageUrl": "/images/models/samsung/web_z-fold.png",
+    "product": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 1,
+  "fields": {
+    "name": "13 Pro Max",
+    "imageUrl": "/images/models/iphone/web_ip13promax.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 2,
+  "fields": {
+    "name": "13 Pro",
+    "imageUrl": "/images/models/iphone/web_ip13pro.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 3,
+  "fields": {
+    "name": "13",
+    "imageUrl": "/images/models/iphone/web_ip13.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 4,
+  "fields": {
+    "name": "13 Mini",
+    "imageUrl": "/images/models/iphone/web_ip13mini.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 5,
+  "fields": {
+    "name": "12 Pro Max",
+    "imageUrl": "/images/models/iphone/web_ip12promax.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 6,
+  "fields": {
+    "name": "12 Pro",
+    "imageUrl": "/images/models/iphone/web_ip12pro.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 7,
+  "fields": {
+    "name": "12",
+    "imageUrl": "/images/models/iphone/web_ip12.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 8,
+  "fields": {
+    "name": "12 Mini",
+    "imageUrl": "/images/models/iphone/web_ip12mini.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 9,
+  "fields": {
+    "name": "11 Pro Max",
+    "imageUrl": "/images/models/iphone/web_ip11promax.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 10,
+  "fields": {
+    "name": "11 Pro",
+    "imageUrl": "/images/models/iphone/web_ip11pro.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 11,
+  "fields": {
+    "name": "SE (2020)",
+    "imageUrl": "/images/models/iphone/web_ipse2020.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 12,
+  "fields": {
+    "name": "11",
+    "imageUrl": "/images/models/iphone/web_ip11.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 13,
+  "fields": {
+    "name": "XR",
+    "imageUrl": "/images/models/iphone/web_ipxr.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 14,
+  "fields": {
+    "name": "X",
+    "imageUrl": "/images/models/iphone/web_ipx.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 15,
+  "fields": {
+    "name": "XS",
+    "imageUrl": "/images/models/iphone/web_ipxs.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 16,
+  "fields": {
+    "name": "XS Max",
+    "imageUrl": "/images/models/iphone/web_ipxsmax.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 17,
+  "fields": {
+    "name": "8 Plus",
+    "imageUrl": "/images/models/iphone/web_ip8plus.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 18,
+  "fields": {
+    "name": "8",
+    "imageUrl": "/images/models/iphone/web_ip8.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 19,
+  "fields": {
+    "name": "7 Plus",
+    "imageUrl": "/images/models/iphone/web_ip7plus.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 20,
+  "fields": {
+    "name": "7",
+    "imageUrl": "/images/models/iphone/web_ip7.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 21,
+  "fields": {
+    "name": "6s Plus",
+    "imageUrl": "/images/models/iphone/web_ip6splus.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 22,
+  "fields": {
+    "name": "6s",
+    "imageUrl": "/images/models/iphone/web_ip6s.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 23,
+  "fields": {
+    "name": "6",
+    "imageUrl": "/images/models/iphone/web_ip6.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 24,
+  "fields": {
+    "name": "6 Plus",
+    "imageUrl": "/images/models/iphone/web_ip6plus.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 25,
+  "fields": {
+    "name": "5SE",
+    "imageUrl": "/images/models/iphone/web_ip5se.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 26,
+  "fields": {
+    "name": "5S",
+    "imageUrl": "/images/models/iphone/web_ip5s.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 27,
+  "fields": {
+    "name": "5C",
+    "imageUrl": "/images/models/iphone/web_ip5c.png",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 28,
+  "fields": {
+    "name": "S21 Ultra 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 29,
+  "fields": {
+    "name": "S21+ 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 30,
+  "fields": {
+    "name": "S21 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 31,
+  "fields": {
+    "name": "S21 FE 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 32,
+  "fields": {
+    "name": "S20 Ultra 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 33,
+  "fields": {
+    "name": "S20+ 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 34,
+  "fields": {
+    "name": "S20 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 35,
+  "fields": {
+    "name": "S20FE 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 36,
+  "fields": {
+    "name": "S20",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 37,
+  "fields": {
+    "name": "S20 5G UW",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s20-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 38,
+  "fields": {
+    "name": "S10 5G",
+    "imageUrl": "/images/models/samsung/web_galaxy-s10-5g.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 39,
+  "fields": {
+    "name": "S10+",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys10plus.webp",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 40,
+  "fields": {
+    "name": "S10",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s10.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 41,
+  "fields": {
+    "name": "S10E",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s10e-1.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 42,
+  "fields": {
+    "name": "S9+",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s9-plus.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 43,
+  "fields": {
+    "name": "S9",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-s9-plus.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 44,
+  "fields": {
+    "name": "S8",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys8plus.webp",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 45,
+  "fields": {
+    "name": "S8+",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys8plus.webp",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 46,
+  "fields": {
+    "name": "S8 Active",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys8active.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 47,
+  "fields": {
+    "name": "S7 Active",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys7active.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 48,
+  "fields": {
+    "name": "S7",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys7.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 49,
+  "fields": {
+    "name": "S7 Edge",
+    "imageUrl": "/images/models/samsung/web_samsunggalaxys7edge.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 50,
+  "fields": {
+    "name": "Note 20",
+    "imageUrl": "/images/models/samsung/web_note20.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 51,
+  "fields": {
+    "name": "Note 20 Ultra",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-20.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 52,
+  "fields": {
+    "name": "Note 20 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 53,
+  "fields": {
+    "name": "Note 20 Ultra 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 54,
+  "fields": {
+    "name": "Note 10+ 5G",
+    "imageUrl": "/images/models/samsung/web_note-10-plus-5g.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 55,
+  "fields": {
+    "name": "Note 10+",
+    "imageUrl": "/images/models/samsung/web_note10plus.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 56,
+  "fields": {
+    "name": "Note 10 5G",
+    "imageUrl": "/images/models/samsung/web_note-10-plus-5g.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 57,
+  "fields": {
+    "name": "Note 10",
+    "imageUrl": "/images/models/samsung/web_note-10-plus-5g.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 58,
+  "fields": {
+    "name": "Note 10 Lite",
+    "imageUrl": "/images/models/samsung/web_note-10-lite.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 59,
+  "fields": {
+    "name": "Note 9",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-9.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 60,
+  "fields": {
+    "name": "Note 8",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-8.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 61,
+  "fields": {
+    "name": "Note FE",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-edge.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 62,
+  "fields": {
+    "name": "Note 7",
+    "imageUrl": "/images/models/samsung/web_samsungnote7.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 63,
+  "fields": {
+    "name": "Note 5",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-note-5.png",
+    "series": 3
+  }
+},
+{
+  "model": "device.model",
+  "pk": 64,
+  "fields": {
+    "name": "Z FOLD 2 5G",
+    "imageUrl": "/images/models/samsung/web_z-fold.png",
+    "series": 4
+  }
+},
+{
+  "model": "device.model",
+  "pk": 65,
+  "fields": {
+    "name": "FOLD 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-fold.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 66,
+  "fields": {
+    "name": "FOLD",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-fold.png",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 67,
+  "fields": {
+    "name": "Z FLIP",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-zflip.png",
+    "series": 4
+  }
+},
+{
+  "model": "device.model",
+  "pk": 68,
+  "fields": {
+    "name": "Z FLIP 5G",
+    "imageUrl": "/images/models/samsung/web_samsung-galaxy-zflip-5g.png",
+    "series": 4
+  }
+},
+{
+  "model": "device.variantgroup",
+  "pk": 1,
+  "fields": {
+    "name": "Storage"
+  }
+},
+{
+  "model": "device.variantgroup",
+  "pk": 2,
+  "fields": {
+    "name": "Color"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "value": "128G"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 2,
+  "fields": {
+    "group": 1,
+    "value": "256G"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 3,
+  "fields": {
+    "group": 2,
+    "value": "Red"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 4,
+  "fields": {
+    "group": 2,
+    "value": "Blue"
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 1,
+  "fields": {
+    "model": 1,
+    "price": 150.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 2,
+  "fields": {
+    "model": 1,
+    "price": 364.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 3,
+  "fields": {
+    "model": 1,
+    "price": 514.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 4,
+  "fields": {
+    "model": 1,
+    "price": 466.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 5,
+  "fields": {
+    "model": 2,
+    "price": 209.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 6,
+  "fields": {
+    "model": 2,
+    "price": 154.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 7,
+  "fields": {
+    "model": 2,
+    "price": 274.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 8,
+  "fields": {
+    "model": 2,
+    "price": 224.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 9,
+  "fields": {
+    "model": 3,
+    "price": 853.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 10,
+  "fields": {
+    "model": 3,
+    "price": 570.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 11,
+  "fields": {
+    "model": 3,
+    "price": 654.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 12,
+  "fields": {
+    "model": 3,
+    "price": 846.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 13,
+  "fields": {
+    "model": 4,
+    "price": 780.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 14,
+  "fields": {
+    "model": 4,
+    "price": 175.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 15,
+  "fields": {
+    "model": 4,
+    "price": 379.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 16,
+  "fields": {
+    "model": 4,
+    "price": 649.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 17,
+  "fields": {
+    "model": 5,
+    "price": 561.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 18,
+  "fields": {
+    "model": 5,
+    "price": 653.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 19,
+  "fields": {
+    "model": 5,
+    "price": 202.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 20,
+  "fields": {
+    "model": 5,
+    "price": 620.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 21,
+  "fields": {
+    "model": 6,
+    "price": 425.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 22,
+  "fields": {
+    "model": 6,
+    "price": 566.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 23,
+  "fields": {
+    "model": 6,
+    "price": 961.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 24,
+  "fields": {
+    "model": 6,
+    "price": 697.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 25,
+  "fields": {
+    "model": 7,
+    "price": 863.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 26,
+  "fields": {
+    "model": 7,
+    "price": 191.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 27,
+  "fields": {
+    "model": 7,
+    "price": 416.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 28,
+  "fields": {
+    "model": 7,
+    "price": 744.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 29,
+  "fields": {
+    "model": 8,
+    "price": 465.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 30,
+  "fields": {
+    "model": 8,
+    "price": 977.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 31,
+  "fields": {
+    "model": 8,
+    "price": 374.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 32,
+  "fields": {
+    "model": 8,
+    "price": 849.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 33,
+  "fields": {
+    "model": 9,
+    "price": 715.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 34,
+  "fields": {
+    "model": 9,
+    "price": 102.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 35,
+  "fields": {
+    "model": 9,
+    "price": 184.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 36,
+  "fields": {
+    "model": 9,
+    "price": 573.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 37,
+  "fields": {
+    "model": 10,
+    "price": 670.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 38,
+  "fields": {
+    "model": 10,
+    "price": 853.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 39,
+  "fields": {
+    "model": 10,
+    "price": 879.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 40,
+  "fields": {
+    "model": 10,
+    "price": 887.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 41,
+  "fields": {
+    "model": 11,
+    "price": 617.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 42,
+  "fields": {
+    "model": 11,
+    "price": 295.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 43,
+  "fields": {
+    "model": 11,
+    "price": 178.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 44,
+  "fields": {
+    "model": 11,
+    "price": 471.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 45,
+  "fields": {
+    "model": 12,
+    "price": 719.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 46,
+  "fields": {
+    "model": 12,
+    "price": 512.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 47,
+  "fields": {
+    "model": 12,
+    "price": 706.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 48,
+  "fields": {
+    "model": 12,
+    "price": 177.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 49,
+  "fields": {
+    "model": 13,
+    "price": 432.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 50,
+  "fields": {
+    "model": 13,
+    "price": 331.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 51,
+  "fields": {
+    "model": 13,
+    "price": 927.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 52,
+  "fields": {
+    "model": 13,
+    "price": 278.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 53,
+  "fields": {
+    "model": 14,
+    "price": 260.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 54,
+  "fields": {
+    "model": 14,
+    "price": 312.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 55,
+  "fields": {
+    "model": 14,
+    "price": 299.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 56,
+  "fields": {
+    "model": 14,
+    "price": 957.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 57,
+  "fields": {
+    "model": 15,
+    "price": 160.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 58,
+  "fields": {
+    "model": 15,
+    "price": 998.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 59,
+  "fields": {
+    "model": 15,
+    "price": 599.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 60,
+  "fields": {
+    "model": 15,
+    "price": 214.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 61,
+  "fields": {
+    "model": 16,
+    "price": 919.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 62,
+  "fields": {
+    "model": 16,
+    "price": 104.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 63,
+  "fields": {
+    "model": 16,
+    "price": 381.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 64,
+  "fields": {
+    "model": 16,
+    "price": 484.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 65,
+  "fields": {
+    "model": 17,
+    "price": 991.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 66,
+  "fields": {
+    "model": 17,
+    "price": 621.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 67,
+  "fields": {
+    "model": 17,
+    "price": 746.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 68,
+  "fields": {
+    "model": 17,
+    "price": 325.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 69,
+  "fields": {
+    "model": 18,
+    "price": 921.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 70,
+  "fields": {
+    "model": 18,
+    "price": 624.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 71,
+  "fields": {
+    "model": 18,
+    "price": 155.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 72,
+  "fields": {
+    "model": 18,
+    "price": 545.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 73,
+  "fields": {
+    "model": 19,
+    "price": 246.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 74,
+  "fields": {
+    "model": 19,
+    "price": 429.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 75,
+  "fields": {
+    "model": 19,
+    "price": 613.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 76,
+  "fields": {
+    "model": 19,
+    "price": 339.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 77,
+  "fields": {
+    "model": 20,
+    "price": 539.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 78,
+  "fields": {
+    "model": 20,
+    "price": 952.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 79,
+  "fields": {
+    "model": 20,
+    "price": 107.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 80,
+  "fields": {
+    "model": 20,
+    "price": 531.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 81,
+  "fields": {
+    "model": 21,
+    "price": 954.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 82,
+  "fields": {
+    "model": 21,
+    "price": 419.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 83,
+  "fields": {
+    "model": 21,
+    "price": 936.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 84,
+  "fields": {
+    "model": 21,
+    "price": 695.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 85,
+  "fields": {
+    "model": 22,
+    "price": 537.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 86,
+  "fields": {
+    "model": 22,
+    "price": 772.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 87,
+  "fields": {
+    "model": 22,
+    "price": 304.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 88,
+  "fields": {
+    "model": 22,
+    "price": 491.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 89,
+  "fields": {
+    "model": 23,
+    "price": 292.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 90,
+  "fields": {
+    "model": 23,
+    "price": 659.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 91,
+  "fields": {
+    "model": 23,
+    "price": 208.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 92,
+  "fields": {
+    "model": 23,
+    "price": 493.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 93,
+  "fields": {
+    "model": 24,
+    "price": 369.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 94,
+  "fields": {
+    "model": 24,
+    "price": 617.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 95,
+  "fields": {
+    "model": 24,
+    "price": 318.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 96,
+  "fields": {
+    "model": 24,
+    "price": 435.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 97,
+  "fields": {
+    "model": 25,
+    "price": 562.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 98,
+  "fields": {
+    "model": 25,
+    "price": 306.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 99,
+  "fields": {
+    "model": 25,
+    "price": 222.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 100,
+  "fields": {
+    "model": 25,
+    "price": 131.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 101,
+  "fields": {
+    "model": 26,
+    "price": 744.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 102,
+  "fields": {
+    "model": 26,
+    "price": 210.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 103,
+  "fields": {
+    "model": 26,
+    "price": 933.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 104,
+  "fields": {
+    "model": 26,
+    "price": 907.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 105,
+  "fields": {
+    "model": 27,
+    "price": 432.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 106,
+  "fields": {
+    "model": 27,
+    "price": 366.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 107,
+  "fields": {
+    "model": 27,
+    "price": 410.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 108,
+  "fields": {
+    "model": 27,
+    "price": 932.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 109,
+  "fields": {
+    "model": 28,
+    "price": 570.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 110,
+  "fields": {
+    "model": 28,
+    "price": 549.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 111,
+  "fields": {
+    "model": 28,
+    "price": 151.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 112,
+  "fields": {
+    "model": 28,
+    "price": 604.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 113,
+  "fields": {
+    "model": 29,
+    "price": 445.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 114,
+  "fields": {
+    "model": 29,
+    "price": 757.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 115,
+  "fields": {
+    "model": 29,
+    "price": 480.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 116,
+  "fields": {
+    "model": 29,
+    "price": 729.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 117,
+  "fields": {
+    "model": 30,
+    "price": 596.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 118,
+  "fields": {
+    "model": 30,
+    "price": 565.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 119,
+  "fields": {
+    "model": 30,
+    "price": 201.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 120,
+  "fields": {
+    "model": 30,
+    "price": 277.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 121,
+  "fields": {
+    "model": 31,
+    "price": 645.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 122,
+  "fields": {
+    "model": 31,
+    "price": 116.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 123,
+  "fields": {
+    "model": 31,
+    "price": 700.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 124,
+  "fields": {
+    "model": 31,
+    "price": 841.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 125,
+  "fields": {
+    "model": 32,
+    "price": 333.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 126,
+  "fields": {
+    "model": 32,
+    "price": 587.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 127,
+  "fields": {
+    "model": 32,
+    "price": 464.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 128,
+  "fields": {
+    "model": 32,
+    "price": 315.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 129,
+  "fields": {
+    "model": 33,
+    "price": 432.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 130,
+  "fields": {
+    "model": 33,
+    "price": 833.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 131,
+  "fields": {
+    "model": 33,
+    "price": 967.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 132,
+  "fields": {
+    "model": 33,
+    "price": 644.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 133,
+  "fields": {
+    "model": 34,
+    "price": 259.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 134,
+  "fields": {
+    "model": 34,
+    "price": 793.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 135,
+  "fields": {
+    "model": 34,
+    "price": 465.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 136,
+  "fields": {
+    "model": 34,
+    "price": 851.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 137,
+  "fields": {
+    "model": 35,
+    "price": 155.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 138,
+  "fields": {
+    "model": 35,
+    "price": 578.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 139,
+  "fields": {
+    "model": 35,
+    "price": 767.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 140,
+  "fields": {
+    "model": 35,
+    "price": 232.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 141,
+  "fields": {
+    "model": 36,
+    "price": 582.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 142,
+  "fields": {
+    "model": 36,
+    "price": 910.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 143,
+  "fields": {
+    "model": 36,
+    "price": 739.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 144,
+  "fields": {
+    "model": 36,
+    "price": 905.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 145,
+  "fields": {
+    "model": 37,
+    "price": 735.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 146,
+  "fields": {
+    "model": 37,
+    "price": 708.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 147,
+  "fields": {
+    "model": 37,
+    "price": 522.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 148,
+  "fields": {
+    "model": 37,
+    "price": 518.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 149,
+  "fields": {
+    "model": 38,
+    "price": 831.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 150,
+  "fields": {
+    "model": 38,
+    "price": 564.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 151,
+  "fields": {
+    "model": 38,
+    "price": 704.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 152,
+  "fields": {
+    "model": 38,
+    "price": 813.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 153,
+  "fields": {
+    "model": 39,
+    "price": 840.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 154,
+  "fields": {
+    "model": 39,
+    "price": 781.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 155,
+  "fields": {
+    "model": 39,
+    "price": 593.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 156,
+  "fields": {
+    "model": 39,
+    "price": 874.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 157,
+  "fields": {
+    "model": 40,
+    "price": 820.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 158,
+  "fields": {
+    "model": 40,
+    "price": 160.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 159,
+  "fields": {
+    "model": 40,
+    "price": 309.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 160,
+  "fields": {
+    "model": 40,
+    "price": 585.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 161,
+  "fields": {
+    "model": 41,
+    "price": 483.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 162,
+  "fields": {
+    "model": 41,
+    "price": 264.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 163,
+  "fields": {
+    "model": 41,
+    "price": 456.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 164,
+  "fields": {
+    "model": 41,
+    "price": 395.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 165,
+  "fields": {
+    "model": 42,
+    "price": 874.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 166,
+  "fields": {
+    "model": 42,
+    "price": 438.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 167,
+  "fields": {
+    "model": 42,
+    "price": 801.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 168,
+  "fields": {
+    "model": 42,
+    "price": 365.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 169,
+  "fields": {
+    "model": 43,
+    "price": 816.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 170,
+  "fields": {
+    "model": 43,
+    "price": 432.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 171,
+  "fields": {
+    "model": 43,
+    "price": 591.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 172,
+  "fields": {
+    "model": 43,
+    "price": 649.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 173,
+  "fields": {
+    "model": 44,
+    "price": 220.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 174,
+  "fields": {
+    "model": 44,
+    "price": 169.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 175,
+  "fields": {
+    "model": 44,
+    "price": 508.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 176,
+  "fields": {
+    "model": 44,
+    "price": 708.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 177,
+  "fields": {
+    "model": 45,
+    "price": 303.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 178,
+  "fields": {
+    "model": 45,
+    "price": 268.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 179,
+  "fields": {
+    "model": 45,
+    "price": 130.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 180,
+  "fields": {
+    "model": 45,
+    "price": 839.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 181,
+  "fields": {
+    "model": 46,
+    "price": 296.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 182,
+  "fields": {
+    "model": 46,
+    "price": 820.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 183,
+  "fields": {
+    "model": 46,
+    "price": 283.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 184,
+  "fields": {
+    "model": 46,
+    "price": 214.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 185,
+  "fields": {
+    "model": 47,
+    "price": 524.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 186,
+  "fields": {
+    "model": 47,
+    "price": 688.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 187,
+  "fields": {
+    "model": 47,
+    "price": 486.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 188,
+  "fields": {
+    "model": 47,
+    "price": 648.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 189,
+  "fields": {
+    "model": 48,
+    "price": 394.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 190,
+  "fields": {
+    "model": 48,
+    "price": 683.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 191,
+  "fields": {
+    "model": 48,
+    "price": 344.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 192,
+  "fields": {
+    "model": 48,
+    "price": 984.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 193,
+  "fields": {
+    "model": 49,
+    "price": 372.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 194,
+  "fields": {
+    "model": 49,
+    "price": 521.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 195,
+  "fields": {
+    "model": 49,
+    "price": 521.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 196,
+  "fields": {
+    "model": 49,
+    "price": 962.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 197,
+  "fields": {
+    "model": 50,
+    "price": 663.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 198,
+  "fields": {
+    "model": 50,
+    "price": 307.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 199,
+  "fields": {
+    "model": 50,
+    "price": 597.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 200,
+  "fields": {
+    "model": 50,
+    "price": 773.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 201,
+  "fields": {
+    "model": 51,
+    "price": 944.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 202,
+  "fields": {
+    "model": 51,
+    "price": 646.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 203,
+  "fields": {
+    "model": 51,
+    "price": 402.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 204,
+  "fields": {
+    "model": 51,
+    "price": 614.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 205,
+  "fields": {
+    "model": 52,
+    "price": 594.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 206,
+  "fields": {
+    "model": 52,
+    "price": 914.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 207,
+  "fields": {
+    "model": 52,
+    "price": 727.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 208,
+  "fields": {
+    "model": 52,
+    "price": 934.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 209,
+  "fields": {
+    "model": 53,
+    "price": 984.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 210,
+  "fields": {
+    "model": 53,
+    "price": 173.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 211,
+  "fields": {
+    "model": 53,
+    "price": 783.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 212,
+  "fields": {
+    "model": 53,
+    "price": 398.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 213,
+  "fields": {
+    "model": 54,
+    "price": 224.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 214,
+  "fields": {
+    "model": 54,
+    "price": 318.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 215,
+  "fields": {
+    "model": 54,
+    "price": 277.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 216,
+  "fields": {
+    "model": 54,
+    "price": 382.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 217,
+  "fields": {
+    "model": 55,
+    "price": 846.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 218,
+  "fields": {
+    "model": 55,
+    "price": 217.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 219,
+  "fields": {
+    "model": 55,
+    "price": 468.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 220,
+  "fields": {
+    "model": 55,
+    "price": 574.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 221,
+  "fields": {
+    "model": 56,
+    "price": 230.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 222,
+  "fields": {
+    "model": 56,
+    "price": 796.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 223,
+  "fields": {
+    "model": 56,
+    "price": 931.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 224,
+  "fields": {
+    "model": 56,
+    "price": 988.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 225,
+  "fields": {
+    "model": 57,
+    "price": 516.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 226,
+  "fields": {
+    "model": 57,
+    "price": 739.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 227,
+  "fields": {
+    "model": 57,
+    "price": 688.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 228,
+  "fields": {
+    "model": 57,
+    "price": 565.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 229,
+  "fields": {
+    "model": 58,
+    "price": 525.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 230,
+  "fields": {
+    "model": 58,
+    "price": 160.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 231,
+  "fields": {
+    "model": 58,
+    "price": 179.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 232,
+  "fields": {
+    "model": 58,
+    "price": 898.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 233,
+  "fields": {
+    "model": 59,
+    "price": 194.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 234,
+  "fields": {
+    "model": 59,
+    "price": 262.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 235,
+  "fields": {
+    "model": 59,
+    "price": 562.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 236,
+  "fields": {
+    "model": 59,
+    "price": 717.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 237,
+  "fields": {
+    "model": 60,
+    "price": 159.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 238,
+  "fields": {
+    "model": 60,
+    "price": 439.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 239,
+  "fields": {
+    "model": 60,
+    "price": 191.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 240,
+  "fields": {
+    "model": 60,
+    "price": 936.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 241,
+  "fields": {
+    "model": 61,
+    "price": 899.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 242,
+  "fields": {
+    "model": 61,
+    "price": 250.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 243,
+  "fields": {
+    "model": 61,
+    "price": 153.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 244,
+  "fields": {
+    "model": 61,
+    "price": 481.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 245,
+  "fields": {
+    "model": 62,
+    "price": 713.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 246,
+  "fields": {
+    "model": 62,
+    "price": 731.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 247,
+  "fields": {
+    "model": 62,
+    "price": 964.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 248,
+  "fields": {
+    "model": 62,
+    "price": 929.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 249,
+  "fields": {
+    "model": 63,
+    "price": 259.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 250,
+  "fields": {
+    "model": 63,
+    "price": 860.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 251,
+  "fields": {
+    "model": 63,
+    "price": 654.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 252,
+  "fields": {
+    "model": 63,
+    "price": 529.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 253,
+  "fields": {
+    "model": 64,
+    "price": 355.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 254,
+  "fields": {
+    "model": 64,
+    "price": 396.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 255,
+  "fields": {
+    "model": 64,
+    "price": 284.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 256,
+  "fields": {
+    "model": 64,
+    "price": 846.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 257,
+  "fields": {
+    "model": 65,
+    "price": 152.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 258,
+  "fields": {
+    "model": 65,
+    "price": 949.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 259,
+  "fields": {
+    "model": 65,
+    "price": 983.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 260,
+  "fields": {
+    "model": 65,
+    "price": 764.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 261,
+  "fields": {
+    "model": 66,
+    "price": 738.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 262,
+  "fields": {
+    "model": 66,
+    "price": 407.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 263,
+  "fields": {
+    "model": 66,
+    "price": 795.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 264,
+  "fields": {
+    "model": 66,
+    "price": 128.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 265,
+  "fields": {
+    "model": 67,
+    "price": 397.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 266,
+  "fields": {
+    "model": 67,
+    "price": 599.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 267,
+  "fields": {
+    "model": 67,
+    "price": 862.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 268,
+  "fields": {
+    "model": 67,
+    "price": 638.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 269,
+  "fields": {
+    "model": 68,
+    "price": 924.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 270,
+  "fields": {
+    "model": 68,
+    "price": 419.0,
+    "values": [
+      1,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 271,
+  "fields": {
+    "model": 68,
+    "price": 369.0,
+    "values": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 272,
+  "fields": {
+    "model": 68,
+    "price": 412.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.device",
+  "pk": 1,
+  "fields": {
+    "model_variant": 14,
+    "imei": "071289883650193",
+    "serial_number": "3L18V3C"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 2,
+  "fields": {
+    "model_variant": 163,
+    "imei": "430088077355582",
+    "serial_number": "Y20GN1J"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 3,
+  "fields": {
+    "model_variant": 122,
+    "imei": "245103938490300",
+    "serial_number": "59YFVGS"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 4,
+  "fields": {
+    "model_variant": 172,
+    "imei": "849754689561816",
+    "serial_number": "Z90J408"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 5,
+  "fields": {
+    "model_variant": 16,
+    "imei": "491852906696905",
+    "serial_number": "3KTOQTD"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 6,
+  "fields": {
+    "model_variant": 69,
+    "imei": "227612725413145",
+    "serial_number": "YZIE7C3"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 7,
+  "fields": {
+    "model_variant": 141,
+    "imei": "892700415710760",
+    "serial_number": "EQBEKA7"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 8,
+  "fields": {
+    "model_variant": 74,
+    "imei": "466026531205424",
+    "serial_number": "ESUDMLZ"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 9,
+  "fields": {
+    "model_variant": 268,
+    "imei": "184081370759376",
+    "serial_number": "HOL5Q7Y"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 10,
+  "fields": {
+    "model_variant": 227,
+    "imei": "752945074039169",
+    "serial_number": "GLKNG0H"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 11,
+  "fields": {
+    "model_variant": 215,
+    "imei": "377796711165407",
+    "serial_number": "OLFSI9G"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 12,
+  "fields": {
+    "model_variant": 27,
+    "imei": "517925707031693",
+    "serial_number": "QQQYTUQ"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 13,
+  "fields": {
+    "model_variant": 156,
+    "imei": "700961301666347",
+    "serial_number": "1B7W2TK"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 14,
+  "fields": {
+    "model_variant": 103,
+    "imei": "410351118004806",
+    "serial_number": "KI49OI5"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 15,
+  "fields": {
+    "model_variant": 41,
+    "imei": "323811953003078",
+    "serial_number": "VS55AIW"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 16,
+  "fields": {
+    "model_variant": 128,
+    "imei": "404379518125656",
+    "serial_number": "R2XGJE1"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 17,
+  "fields": {
+    "model_variant": 191,
+    "imei": "250474488919998",
+    "serial_number": "L069X0W"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 18,
+  "fields": {
+    "model_variant": 18,
+    "imei": "747526696439260",
+    "serial_number": "18JJ4P3"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 19,
+  "fields": {
+    "model_variant": 77,
+    "imei": "951849409401480",
+    "serial_number": "LH3S99S"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 20,
+  "fields": {
+    "model_variant": 138,
+    "imei": "393006792241890",
+    "serial_number": "GM44QZL"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 21,
+  "fields": {
+    "model_variant": 235,
+    "imei": "317979920731465",
+    "serial_number": "XV8HIMO"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 22,
+  "fields": {
+    "model_variant": 242,
+    "imei": "294886022552078",
+    "serial_number": "THVKJZD"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 23,
+  "fields": {
+    "model_variant": 41,
+    "imei": "326308131341607",
+    "serial_number": "TBBVQ76"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 24,
+  "fields": {
+    "model_variant": 236,
+    "imei": "592516978475254",
+    "serial_number": "9FPWIOX"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 25,
+  "fields": {
+    "model_variant": 250,
+    "imei": "770703282268319",
+    "serial_number": "SC9MFYT"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 26,
+  "fields": {
+    "model_variant": 262,
+    "imei": "766826214257190",
+    "serial_number": "2F68Q47"
+  }
+}
+]

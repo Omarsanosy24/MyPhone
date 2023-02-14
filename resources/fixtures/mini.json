@@ -1,0 +1,2120 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 6,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 6,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 6,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 6,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add token",
+    "content_type": 7,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change token",
+    "content_type": 7,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete token",
+    "content_type": 7,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view token",
+    "content_type": 7,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add historical user",
+    "content_type": 8,
+    "codename": "add_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change historical user",
+    "content_type": 8,
+    "codename": "change_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete historical user",
+    "content_type": 8,
+    "codename": "delete_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view historical user",
+    "content_type": 8,
+    "codename": "view_historicaluser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 9,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 9,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 9,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 9,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add customer",
+    "content_type": 10,
+    "codename": "add_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change customer",
+    "content_type": 10,
+    "codename": "change_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete customer",
+    "content_type": 10,
+    "codename": "delete_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view customer",
+    "content_type": 10,
+    "codename": "view_customer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add company",
+    "content_type": 11,
+    "codename": "add_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change company",
+    "content_type": 11,
+    "codename": "change_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete company",
+    "content_type": 11,
+    "codename": "delete_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view company",
+    "content_type": 11,
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 12,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 12,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 12,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 12,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 13,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 13,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 13,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 13,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add series",
+    "content_type": 14,
+    "codename": "add_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change series",
+    "content_type": 14,
+    "codename": "change_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete series",
+    "content_type": 14,
+    "codename": "delete_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view series",
+    "content_type": 14,
+    "codename": "view_series"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add model",
+    "content_type": 15,
+    "codename": "add_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change model",
+    "content_type": 15,
+    "codename": "change_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete model",
+    "content_type": 15,
+    "codename": "delete_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view model",
+    "content_type": 15,
+    "codename": "view_model"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add variant group",
+    "content_type": 16,
+    "codename": "add_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change variant group",
+    "content_type": 16,
+    "codename": "change_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete variant group",
+    "content_type": 16,
+    "codename": "delete_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view variant group",
+    "content_type": 16,
+    "codename": "view_variantgroup"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add variant value",
+    "content_type": 17,
+    "codename": "add_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change variant value",
+    "content_type": 17,
+    "codename": "change_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete variant value",
+    "content_type": 17,
+    "codename": "delete_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view variant value",
+    "content_type": 17,
+    "codename": "view_variantvalue"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add model variant",
+    "content_type": 18,
+    "codename": "add_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change model variant",
+    "content_type": 18,
+    "codename": "change_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete model variant",
+    "content_type": 18,
+    "codename": "delete_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view model variant",
+    "content_type": 18,
+    "codename": "view_modelvariant"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add device",
+    "content_type": 19,
+    "codename": "add_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change device",
+    "content_type": 19,
+    "codename": "change_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete device",
+    "content_type": 19,
+    "codename": "delete_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view device",
+    "content_type": 19,
+    "codename": "view_device"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 20,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 20,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 20,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 20,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add line",
+    "content_type": 21,
+    "codename": "add_line"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change line",
+    "content_type": 21,
+    "codename": "change_line"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete line",
+    "content_type": 21,
+    "codename": "delete_line"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view line",
+    "content_type": 21,
+    "codename": "view_line"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "core",
+    "model": "historicaluser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "customer",
+    "model": "customer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "device",
+    "model": "company"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "device",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "device",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "device",
+    "model": "series"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "device",
+    "model": "model"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "device",
+    "model": "variantgroup"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "device",
+    "model": "variantvalue"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "device",
+    "model": "modelvariant"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "device",
+    "model": "device"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "order",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "order",
+    "model": "line"
+  }
+},
+{
+  "model": "core.historicaluser",
+  "pk": 1,
+  "fields": {
+    "id": 1,
+    "password": "pbkdf2_sha256$390000$T3BYVG7ttn1SHcO8iPeiPG$QMURjFb2MV1/0/wtN95BdtOqs9S8BSir3WR7m+icViI=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-12T16:54:43.775Z",
+    "history_date": "2023-02-12T16:54:44.094Z",
+    "history_change_reason": null,
+    "history_type": "+",
+    "history_user": null
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$T3BYVG7ttn1SHcO8iPeiPG$QMURjFb2MV1/0/wtN95BdtOqs9S8BSir3WR7m+icViI=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-02-12T16:54:43.775Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "device.company",
+  "pk": 1,
+  "fields": {
+    "name": "Apple",
+    "imageUrl": ""
+  }
+},
+{
+  "model": "device.company",
+  "pk": 2,
+  "fields": {
+    "name": "Samsung",
+    "imageUrl": ""
+  }
+},
+{
+  "model": "device.category",
+  "pk": 1,
+  "fields": {
+    "name": "Smartphone",
+    "imageUrl": ""
+  }
+},
+{
+  "model": "device.product",
+  "pk": 1,
+  "fields": {
+    "name": "iPhone",
+    "imageUrl": "",
+    "company": 1,
+    "category": 1
+  }
+},
+{
+  "model": "device.product",
+  "pk": 2,
+  "fields": {
+    "name": "Galaxy",
+    "imageUrl": "",
+    "company": 2,
+    "category": 1
+  }
+},
+{
+  "model": "device.series",
+  "pk": 1,
+  "fields": {
+    "name": "iPhone",
+    "imageUrl": "",
+    "product": 1
+  }
+},
+{
+  "model": "device.series",
+  "pk": 2,
+  "fields": {
+    "name": "S",
+    "imageUrl": "",
+    "product": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 1,
+  "fields": {
+    "name": "XS",
+    "imageUrl": "",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 2,
+  "fields": {
+    "name": "XS Max",
+    "imageUrl": "",
+    "series": 1
+  }
+},
+{
+  "model": "device.model",
+  "pk": 3,
+  "fields": {
+    "name": "S7 Active",
+    "imageUrl": "",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 4,
+  "fields": {
+    "name": "S7",
+    "imageUrl": "",
+    "series": 2
+  }
+},
+{
+  "model": "device.model",
+  "pk": 5,
+  "fields": {
+    "name": "S7 Edge",
+    "imageUrl": "",
+    "series": 2
+  }
+},
+{
+  "model": "device.variantgroup",
+  "pk": 1,
+  "fields": {
+    "name": "Storage"
+  }
+},
+{
+  "model": "device.variantgroup",
+  "pk": 2,
+  "fields": {
+    "name": "Color"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 1,
+  "fields": {
+    "group": 1,
+    "value": "128G"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 2,
+  "fields": {
+    "group": 2,
+    "value": "Red"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 3,
+  "fields": {
+    "group": 2,
+    "value": "Blue"
+  }
+},
+{
+  "model": "device.variantvalue",
+  "pk": 4,
+  "fields": {
+    "group": 1,
+    "value": "256G"
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 1,
+  "fields": {
+    "model": 1,
+    "price": 153.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 2,
+  "fields": {
+    "model": 1,
+    "price": 164.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 3,
+  "fields": {
+    "model": 1,
+    "price": 657.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 4,
+  "fields": {
+    "model": 1,
+    "price": 481.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 5,
+  "fields": {
+    "model": 2,
+    "price": 347.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 6,
+  "fields": {
+    "model": 2,
+    "price": 669.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 7,
+  "fields": {
+    "model": 2,
+    "price": 680.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 8,
+  "fields": {
+    "model": 2,
+    "price": 358.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 9,
+  "fields": {
+    "model": 3,
+    "price": 998.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 10,
+  "fields": {
+    "model": 3,
+    "price": 894.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 11,
+  "fields": {
+    "model": 3,
+    "price": 556.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 12,
+  "fields": {
+    "model": 3,
+    "price": 874.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 13,
+  "fields": {
+    "model": 4,
+    "price": 642.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 14,
+  "fields": {
+    "model": 4,
+    "price": 580.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 15,
+  "fields": {
+    "model": 4,
+    "price": 110.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 16,
+  "fields": {
+    "model": 4,
+    "price": 643.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 17,
+  "fields": {
+    "model": 5,
+    "price": 915.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 18,
+  "fields": {
+    "model": 5,
+    "price": 524.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 19,
+  "fields": {
+    "model": 5,
+    "price": 141.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 20,
+  "fields": {
+    "model": 5,
+    "price": 408.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 21,
+  "fields": {
+    "model": 1,
+    "price": 131.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 22,
+  "fields": {
+    "model": 1,
+    "price": 827.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 23,
+  "fields": {
+    "model": 1,
+    "price": 943.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 24,
+  "fields": {
+    "model": 1,
+    "price": 758.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 25,
+  "fields": {
+    "model": 2,
+    "price": 529.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 26,
+  "fields": {
+    "model": 2,
+    "price": 111.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 27,
+  "fields": {
+    "model": 2,
+    "price": 766.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 28,
+  "fields": {
+    "model": 2,
+    "price": 528.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 29,
+  "fields": {
+    "model": 3,
+    "price": 606.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 30,
+  "fields": {
+    "model": 3,
+    "price": 543.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 31,
+  "fields": {
+    "model": 3,
+    "price": 189.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 32,
+  "fields": {
+    "model": 3,
+    "price": 641.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 33,
+  "fields": {
+    "model": 4,
+    "price": 661.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 34,
+  "fields": {
+    "model": 4,
+    "price": 329.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 35,
+  "fields": {
+    "model": 4,
+    "price": 364.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 36,
+  "fields": {
+    "model": 4,
+    "price": 413.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 37,
+  "fields": {
+    "model": 5,
+    "price": 611.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 38,
+  "fields": {
+    "model": 5,
+    "price": 219.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 39,
+  "fields": {
+    "model": 5,
+    "price": 359.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 40,
+  "fields": {
+    "model": 5,
+    "price": 788.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 41,
+  "fields": {
+    "model": 1,
+    "price": 242.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 42,
+  "fields": {
+    "model": 1,
+    "price": 103.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 43,
+  "fields": {
+    "model": 1,
+    "price": 655.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 44,
+  "fields": {
+    "model": 2,
+    "price": 100.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 45,
+  "fields": {
+    "model": 2,
+    "price": 459.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 46,
+  "fields": {
+    "model": 2,
+    "price": 412.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 47,
+  "fields": {
+    "model": 2,
+    "price": 760.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 48,
+  "fields": {
+    "model": 3,
+    "price": 932.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 49,
+  "fields": {
+    "model": 3,
+    "price": 232.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 50,
+  "fields": {
+    "model": 3,
+    "price": 838.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 51,
+  "fields": {
+    "model": 3,
+    "price": 809.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 52,
+  "fields": {
+    "model": 4,
+    "price": 105.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 53,
+  "fields": {
+    "model": 4,
+    "price": 635.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 54,
+  "fields": {
+    "model": 4,
+    "price": 495.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 55,
+  "fields": {
+    "model": 4,
+    "price": 727.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 56,
+  "fields": {
+    "model": 5,
+    "price": 905.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 57,
+  "fields": {
+    "model": 5,
+    "price": 907.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 58,
+  "fields": {
+    "model": 5,
+    "price": 728.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 59,
+  "fields": {
+    "model": 5,
+    "price": 711.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 60,
+  "fields": {
+    "model": 1,
+    "price": 430.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 61,
+  "fields": {
+    "model": 1,
+    "price": 797.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 62,
+  "fields": {
+    "model": 1,
+    "price": 468.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 63,
+  "fields": {
+    "model": 1,
+    "price": 968.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 64,
+  "fields": {
+    "model": 2,
+    "price": 140.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 65,
+  "fields": {
+    "model": 2,
+    "price": 740.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 66,
+  "fields": {
+    "model": 2,
+    "price": 779.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 67,
+  "fields": {
+    "model": 2,
+    "price": 527.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 68,
+  "fields": {
+    "model": 3,
+    "price": 982.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 69,
+  "fields": {
+    "model": 3,
+    "price": 179.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 70,
+  "fields": {
+    "model": 3,
+    "price": 210.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 71,
+  "fields": {
+    "model": 3,
+    "price": 323.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 72,
+  "fields": {
+    "model": 4,
+    "price": 192.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 73,
+  "fields": {
+    "model": 4,
+    "price": 721.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 74,
+  "fields": {
+    "model": 4,
+    "price": 761.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 75,
+  "fields": {
+    "model": 4,
+    "price": 442.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 76,
+  "fields": {
+    "model": 5,
+    "price": 541.0,
+    "values": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 77,
+  "fields": {
+    "model": 5,
+    "price": 761.0,
+    "values": [
+      1,
+      3
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 78,
+  "fields": {
+    "model": 5,
+    "price": 403.0,
+    "values": [
+      2,
+      4
+    ]
+  }
+},
+{
+  "model": "device.modelvariant",
+  "pk": 79,
+  "fields": {
+    "model": 5,
+    "price": 663.0,
+    "values": [
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "device.device",
+  "pk": 1,
+  "fields": {
+    "model_variant": 57,
+    "imei": "501337937996071",
+    "serial_number": "CNJEUQ6"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 2,
+  "fields": {
+    "model_variant": 14,
+    "imei": "673796511073782",
+    "serial_number": "QFTEKYY"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 3,
+  "fields": {
+    "model_variant": 41,
+    "imei": "947348483776899",
+    "serial_number": "76ZSWFS"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 4,
+  "fields": {
+    "model_variant": 59,
+    "imei": "300936460732102",
+    "serial_number": "C93J14U"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 5,
+  "fields": {
+    "model_variant": 12,
+    "imei": "813749201146467",
+    "serial_number": "EVF2ND3"
+  }
+},
+{
+  "model": "device.device",
+  "pk": 6,
+  "fields": {
+    "model_variant": 53,
+    "imei": "828131404611732",
+    "serial_number": "65PSFK8"
+  }
+}
+]

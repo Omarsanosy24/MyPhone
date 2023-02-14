@@ -1,0 +1,273 @@
+company,category,series,product,model,imageUrl,Storage,Color,price
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,/images/models/iphone/web_ip13promax.png,128G,Red,150.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,/images/models/iphone/web_ip13promax.png,128G,Blue,364.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,/images/models/iphone/web_ip13promax.png,256G,Red,514.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,/images/models/iphone/web_ip13promax.png,256G,Blue,466.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,/images/models/iphone/web_ip13pro.png,128G,Red,209.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,/images/models/iphone/web_ip13pro.png,128G,Blue,154.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,/images/models/iphone/web_ip13pro.png,256G,Red,274.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,/images/models/iphone/web_ip13pro.png,256G,Blue,224.0
+Apple,Smartphone,iPhone,iPhone,13,/images/models/iphone/web_ip13.png,128G,Red,853.0
+Apple,Smartphone,iPhone,iPhone,13,/images/models/iphone/web_ip13.png,128G,Blue,570.0
+Apple,Smartphone,iPhone,iPhone,13,/images/models/iphone/web_ip13.png,256G,Red,654.0
+Apple,Smartphone,iPhone,iPhone,13,/images/models/iphone/web_ip13.png,256G,Blue,846.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,/images/models/iphone/web_ip13mini.png,128G,Red,780.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,/images/models/iphone/web_ip13mini.png,128G,Blue,175.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,/images/models/iphone/web_ip13mini.png,256G,Red,379.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,/images/models/iphone/web_ip13mini.png,256G,Blue,649.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,/images/models/iphone/web_ip12promax.png,128G,Red,561.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,/images/models/iphone/web_ip12promax.png,128G,Blue,653.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,/images/models/iphone/web_ip12promax.png,256G,Red,202.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,/images/models/iphone/web_ip12promax.png,256G,Blue,620.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,/images/models/iphone/web_ip12pro.png,128G,Red,425.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,/images/models/iphone/web_ip12pro.png,128G,Blue,566.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,/images/models/iphone/web_ip12pro.png,256G,Red,961.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,/images/models/iphone/web_ip12pro.png,256G,Blue,697.0
+Apple,Smartphone,iPhone,iPhone,12,/images/models/iphone/web_ip12.png,128G,Red,863.0
+Apple,Smartphone,iPhone,iPhone,12,/images/models/iphone/web_ip12.png,128G,Blue,191.0
+Apple,Smartphone,iPhone,iPhone,12,/images/models/iphone/web_ip12.png,256G,Red,416.0
+Apple,Smartphone,iPhone,iPhone,12,/images/models/iphone/web_ip12.png,256G,Blue,744.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,/images/models/iphone/web_ip12mini.png,128G,Red,465.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,/images/models/iphone/web_ip12mini.png,128G,Blue,977.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,/images/models/iphone/web_ip12mini.png,256G,Red,374.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,/images/models/iphone/web_ip12mini.png,256G,Blue,849.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,/images/models/iphone/web_ip11promax.png,128G,Red,715.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,/images/models/iphone/web_ip11promax.png,128G,Blue,102.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,/images/models/iphone/web_ip11promax.png,256G,Red,184.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,/images/models/iphone/web_ip11promax.png,256G,Blue,573.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,/images/models/iphone/web_ip11pro.png,128G,Red,670.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,/images/models/iphone/web_ip11pro.png,128G,Blue,853.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,/images/models/iphone/web_ip11pro.png,256G,Red,879.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,/images/models/iphone/web_ip11pro.png,256G,Blue,887.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),/images/models/iphone/web_ipse2020.png,128G,Red,617.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),/images/models/iphone/web_ipse2020.png,128G,Blue,295.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),/images/models/iphone/web_ipse2020.png,256G,Red,178.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),/images/models/iphone/web_ipse2020.png,256G,Blue,471.0
+Apple,Smartphone,iPhone,iPhone,11,/images/models/iphone/web_ip11.png,128G,Red,719.0
+Apple,Smartphone,iPhone,iPhone,11,/images/models/iphone/web_ip11.png,128G,Blue,512.0
+Apple,Smartphone,iPhone,iPhone,11,/images/models/iphone/web_ip11.png,256G,Red,706.0
+Apple,Smartphone,iPhone,iPhone,11,/images/models/iphone/web_ip11.png,256G,Blue,177.0
+Apple,Smartphone,iPhone,iPhone,XR,/images/models/iphone/web_ipxr.png,128G,Red,432.0
+Apple,Smartphone,iPhone,iPhone,XR,/images/models/iphone/web_ipxr.png,128G,Blue,331.0
+Apple,Smartphone,iPhone,iPhone,XR,/images/models/iphone/web_ipxr.png,256G,Red,927.0
+Apple,Smartphone,iPhone,iPhone,XR,/images/models/iphone/web_ipxr.png,256G,Blue,278.0
+Apple,Smartphone,iPhone,iPhone,X,/images/models/iphone/web_ipx.png,128G,Red,260.0
+Apple,Smartphone,iPhone,iPhone,X,/images/models/iphone/web_ipx.png,128G,Blue,312.0
+Apple,Smartphone,iPhone,iPhone,X,/images/models/iphone/web_ipx.png,256G,Red,299.0
+Apple,Smartphone,iPhone,iPhone,X,/images/models/iphone/web_ipx.png,256G,Blue,957.0
+Apple,Smartphone,iPhone,iPhone,XS,/images/models/iphone/web_ipxs.png,128G,Red,160.0
+Apple,Smartphone,iPhone,iPhone,XS,/images/models/iphone/web_ipxs.png,128G,Blue,998.0
+Apple,Smartphone,iPhone,iPhone,XS,/images/models/iphone/web_ipxs.png,256G,Red,599.0
+Apple,Smartphone,iPhone,iPhone,XS,/images/models/iphone/web_ipxs.png,256G,Blue,214.0
+Apple,Smartphone,iPhone,iPhone,XS Max,/images/models/iphone/web_ipxsmax.png,128G,Red,919.0
+Apple,Smartphone,iPhone,iPhone,XS Max,/images/models/iphone/web_ipxsmax.png,128G,Blue,104.0
+Apple,Smartphone,iPhone,iPhone,XS Max,/images/models/iphone/web_ipxsmax.png,256G,Red,381.0
+Apple,Smartphone,iPhone,iPhone,XS Max,/images/models/iphone/web_ipxsmax.png,256G,Blue,484.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,/images/models/iphone/web_ip8plus.png,128G,Red,991.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,/images/models/iphone/web_ip8plus.png,128G,Blue,621.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,/images/models/iphone/web_ip8plus.png,256G,Red,746.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,/images/models/iphone/web_ip8plus.png,256G,Blue,325.0
+Apple,Smartphone,iPhone,iPhone,8,/images/models/iphone/web_ip8.png,128G,Red,921.0
+Apple,Smartphone,iPhone,iPhone,8,/images/models/iphone/web_ip8.png,128G,Blue,624.0
+Apple,Smartphone,iPhone,iPhone,8,/images/models/iphone/web_ip8.png,256G,Red,155.0
+Apple,Smartphone,iPhone,iPhone,8,/images/models/iphone/web_ip8.png,256G,Blue,545.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,/images/models/iphone/web_ip7plus.png,128G,Red,246.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,/images/models/iphone/web_ip7plus.png,128G,Blue,429.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,/images/models/iphone/web_ip7plus.png,256G,Red,613.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,/images/models/iphone/web_ip7plus.png,256G,Blue,339.0
+Apple,Smartphone,iPhone,iPhone,7,/images/models/iphone/web_ip7.png,128G,Red,539.0
+Apple,Smartphone,iPhone,iPhone,7,/images/models/iphone/web_ip7.png,128G,Blue,952.0
+Apple,Smartphone,iPhone,iPhone,7,/images/models/iphone/web_ip7.png,256G,Red,107.0
+Apple,Smartphone,iPhone,iPhone,7,/images/models/iphone/web_ip7.png,256G,Blue,531.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,/images/models/iphone/web_ip6splus.png,128G,Red,954.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,/images/models/iphone/web_ip6splus.png,128G,Blue,419.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,/images/models/iphone/web_ip6splus.png,256G,Red,936.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,/images/models/iphone/web_ip6splus.png,256G,Blue,695.0
+Apple,Smartphone,iPhone,iPhone,6s,/images/models/iphone/web_ip6s.png,128G,Red,537.0
+Apple,Smartphone,iPhone,iPhone,6s,/images/models/iphone/web_ip6s.png,128G,Blue,772.0
+Apple,Smartphone,iPhone,iPhone,6s,/images/models/iphone/web_ip6s.png,256G,Red,304.0
+Apple,Smartphone,iPhone,iPhone,6s,/images/models/iphone/web_ip6s.png,256G,Blue,491.0
+Apple,Smartphone,iPhone,iPhone,6,/images/models/iphone/web_ip6.png,128G,Red,292.0
+Apple,Smartphone,iPhone,iPhone,6,/images/models/iphone/web_ip6.png,128G,Blue,659.0
+Apple,Smartphone,iPhone,iPhone,6,/images/models/iphone/web_ip6.png,256G,Red,208.0
+Apple,Smartphone,iPhone,iPhone,6,/images/models/iphone/web_ip6.png,256G,Blue,493.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,/images/models/iphone/web_ip6plus.png,128G,Red,369.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,/images/models/iphone/web_ip6plus.png,128G,Blue,617.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,/images/models/iphone/web_ip6plus.png,256G,Red,318.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,/images/models/iphone/web_ip6plus.png,256G,Blue,435.0
+Apple,Smartphone,iPhone,iPhone,5SE,/images/models/iphone/web_ip5se.png,128G,Red,562.0
+Apple,Smartphone,iPhone,iPhone,5SE,/images/models/iphone/web_ip5se.png,128G,Blue,306.0
+Apple,Smartphone,iPhone,iPhone,5SE,/images/models/iphone/web_ip5se.png,256G,Red,222.0
+Apple,Smartphone,iPhone,iPhone,5SE,/images/models/iphone/web_ip5se.png,256G,Blue,131.0
+Apple,Smartphone,iPhone,iPhone,5S,/images/models/iphone/web_ip5s.png,128G,Red,744.0
+Apple,Smartphone,iPhone,iPhone,5S,/images/models/iphone/web_ip5s.png,128G,Blue,210.0
+Apple,Smartphone,iPhone,iPhone,5S,/images/models/iphone/web_ip5s.png,256G,Red,933.0
+Apple,Smartphone,iPhone,iPhone,5S,/images/models/iphone/web_ip5s.png,256G,Blue,907.0
+Apple,Smartphone,iPhone,iPhone,5C,/images/models/iphone/web_ip5c.png,128G,Red,432.0
+Apple,Smartphone,iPhone,iPhone,5C,/images/models/iphone/web_ip5c.png,128G,Blue,366.0
+Apple,Smartphone,iPhone,iPhone,5C,/images/models/iphone/web_ip5c.png,256G,Red,410.0
+Apple,Smartphone,iPhone,iPhone,5C,/images/models/iphone/web_ip5c.png,256G,Blue,932.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png,128G,Red,570.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png,128G,Blue,549.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png,256G,Red,151.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g-2.png,256G,Blue,604.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,128G,Red,445.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,128G,Blue,757.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,256G,Red,480.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,256G,Blue,729.0
+Samsung,Smartphone,S,Galaxy,S21 5G,/images/models/samsung/web_samsung-galaxy-s21.png,128G,Red,596.0
+Samsung,Smartphone,S,Galaxy,S21 5G,/images/models/samsung/web_samsung-galaxy-s21.png,128G,Blue,565.0
+Samsung,Smartphone,S,Galaxy,S21 5G,/images/models/samsung/web_samsung-galaxy-s21.png,256G,Red,201.0
+Samsung,Smartphone,S,Galaxy,S21 5G,/images/models/samsung/web_samsung-galaxy-s21.png,256G,Blue,277.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,128G,Red,645.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,128G,Blue,116.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,256G,Red,700.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,/images/models/samsung/web_samsung-galaxy-s21-plus-5g.png,256G,Blue,841.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Red,333.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Blue,587.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Red,464.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Blue,315.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Red,432.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Blue,833.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Red,967.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Blue,644.0
+Samsung,Smartphone,S,Galaxy,S20 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Red,259.0
+Samsung,Smartphone,S,Galaxy,S20 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Blue,793.0
+Samsung,Smartphone,S,Galaxy,S20 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Red,465.0
+Samsung,Smartphone,S,Galaxy,S20 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Blue,851.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Red,155.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Blue,578.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Red,767.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Blue,232.0
+Samsung,Smartphone,S,Galaxy,S20,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Red,582.0
+Samsung,Smartphone,S,Galaxy,S20,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Blue,910.0
+Samsung,Smartphone,S,Galaxy,S20,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Red,739.0
+Samsung,Smartphone,S,Galaxy,S20,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Blue,905.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Red,735.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,/images/models/samsung/web_samsung-galaxy-s20-1.png,128G,Blue,708.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Red,522.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,/images/models/samsung/web_samsung-galaxy-s20-1.png,256G,Blue,518.0
+Samsung,Smartphone,S,Galaxy,S10 5G,/images/models/samsung/web_galaxy-s10-5g.png,128G,Red,831.0
+Samsung,Smartphone,S,Galaxy,S10 5G,/images/models/samsung/web_galaxy-s10-5g.png,128G,Blue,564.0
+Samsung,Smartphone,S,Galaxy,S10 5G,/images/models/samsung/web_galaxy-s10-5g.png,256G,Red,704.0
+Samsung,Smartphone,S,Galaxy,S10 5G,/images/models/samsung/web_galaxy-s10-5g.png,256G,Blue,813.0
+Samsung,Smartphone,S,Galaxy,S10+,/images/models/samsung/web_samsunggalaxys10plus.webp,128G,Red,840.0
+Samsung,Smartphone,S,Galaxy,S10+,/images/models/samsung/web_samsunggalaxys10plus.webp,128G,Blue,781.0
+Samsung,Smartphone,S,Galaxy,S10+,/images/models/samsung/web_samsunggalaxys10plus.webp,256G,Red,593.0
+Samsung,Smartphone,S,Galaxy,S10+,/images/models/samsung/web_samsunggalaxys10plus.webp,256G,Blue,874.0
+Samsung,Smartphone,S,Galaxy,S10,/images/models/samsung/web_samsung-galaxy-s10.png,128G,Red,820.0
+Samsung,Smartphone,S,Galaxy,S10,/images/models/samsung/web_samsung-galaxy-s10.png,128G,Blue,160.0
+Samsung,Smartphone,S,Galaxy,S10,/images/models/samsung/web_samsung-galaxy-s10.png,256G,Red,309.0
+Samsung,Smartphone,S,Galaxy,S10,/images/models/samsung/web_samsung-galaxy-s10.png,256G,Blue,585.0
+Samsung,Smartphone,S,Galaxy,S10E,/images/models/samsung/web_samsung-galaxy-s10e-1.png,128G,Red,483.0
+Samsung,Smartphone,S,Galaxy,S10E,/images/models/samsung/web_samsung-galaxy-s10e-1.png,128G,Blue,264.0
+Samsung,Smartphone,S,Galaxy,S10E,/images/models/samsung/web_samsung-galaxy-s10e-1.png,256G,Red,456.0
+Samsung,Smartphone,S,Galaxy,S10E,/images/models/samsung/web_samsung-galaxy-s10e-1.png,256G,Blue,395.0
+Samsung,Smartphone,S,Galaxy,S9+,/images/models/samsung/web_samsung-galaxy-s9-plus.png,128G,Red,874.0
+Samsung,Smartphone,S,Galaxy,S9+,/images/models/samsung/web_samsung-galaxy-s9-plus.png,128G,Blue,438.0
+Samsung,Smartphone,S,Galaxy,S9+,/images/models/samsung/web_samsung-galaxy-s9-plus.png,256G,Red,801.0
+Samsung,Smartphone,S,Galaxy,S9+,/images/models/samsung/web_samsung-galaxy-s9-plus.png,256G,Blue,365.0
+Samsung,Smartphone,S,Galaxy,S9,/images/models/samsung/web_samsung-galaxy-s9-plus.png,128G,Red,816.0
+Samsung,Smartphone,S,Galaxy,S9,/images/models/samsung/web_samsung-galaxy-s9-plus.png,128G,Blue,432.0
+Samsung,Smartphone,S,Galaxy,S9,/images/models/samsung/web_samsung-galaxy-s9-plus.png,256G,Red,591.0
+Samsung,Smartphone,S,Galaxy,S9,/images/models/samsung/web_samsung-galaxy-s9-plus.png,256G,Blue,649.0
+Samsung,Smartphone,S,Galaxy,S8,/images/models/samsung/web_samsunggalaxys8plus.webp,128G,Red,220.0
+Samsung,Smartphone,S,Galaxy,S8,/images/models/samsung/web_samsunggalaxys8plus.webp,128G,Blue,169.0
+Samsung,Smartphone,S,Galaxy,S8,/images/models/samsung/web_samsunggalaxys8plus.webp,256G,Red,508.0
+Samsung,Smartphone,S,Galaxy,S8,/images/models/samsung/web_samsunggalaxys8plus.webp,256G,Blue,708.0
+Samsung,Smartphone,S,Galaxy,S8+,/images/models/samsung/web_samsunggalaxys8plus.webp,128G,Red,303.0
+Samsung,Smartphone,S,Galaxy,S8+,/images/models/samsung/web_samsunggalaxys8plus.webp,128G,Blue,268.0
+Samsung,Smartphone,S,Galaxy,S8+,/images/models/samsung/web_samsunggalaxys8plus.webp,256G,Red,130.0
+Samsung,Smartphone,S,Galaxy,S8+,/images/models/samsung/web_samsunggalaxys8plus.webp,256G,Blue,839.0
+Samsung,Smartphone,S,Galaxy,S8 Active,/images/models/samsung/web_samsunggalaxys8active.png,128G,Red,296.0
+Samsung,Smartphone,S,Galaxy,S8 Active,/images/models/samsung/web_samsunggalaxys8active.png,128G,Blue,820.0
+Samsung,Smartphone,S,Galaxy,S8 Active,/images/models/samsung/web_samsunggalaxys8active.png,256G,Red,283.0
+Samsung,Smartphone,S,Galaxy,S8 Active,/images/models/samsung/web_samsunggalaxys8active.png,256G,Blue,214.0
+Samsung,Smartphone,S,Galaxy,S7 Active,/images/models/samsung/web_samsunggalaxys7active.png,128G,Red,524.0
+Samsung,Smartphone,S,Galaxy,S7 Active,/images/models/samsung/web_samsunggalaxys7active.png,128G,Blue,688.0
+Samsung,Smartphone,S,Galaxy,S7 Active,/images/models/samsung/web_samsunggalaxys7active.png,256G,Red,486.0
+Samsung,Smartphone,S,Galaxy,S7 Active,/images/models/samsung/web_samsunggalaxys7active.png,256G,Blue,648.0
+Samsung,Smartphone,S,Galaxy,S7,/images/models/samsung/web_samsunggalaxys7.png,128G,Red,394.0
+Samsung,Smartphone,S,Galaxy,S7,/images/models/samsung/web_samsunggalaxys7.png,128G,Blue,683.0
+Samsung,Smartphone,S,Galaxy,S7,/images/models/samsung/web_samsunggalaxys7.png,256G,Red,344.0
+Samsung,Smartphone,S,Galaxy,S7,/images/models/samsung/web_samsunggalaxys7.png,256G,Blue,984.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,/images/models/samsung/web_samsunggalaxys7edge.png,128G,Red,372.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,/images/models/samsung/web_samsunggalaxys7edge.png,128G,Blue,521.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,/images/models/samsung/web_samsunggalaxys7edge.png,256G,Red,521.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,/images/models/samsung/web_samsunggalaxys7edge.png,256G,Blue,962.0
+Samsung,Smartphone,Note,Galaxy,Note 20,/images/models/samsung/web_note20.png,128G,Red,663.0
+Samsung,Smartphone,Note,Galaxy,Note 20,/images/models/samsung/web_note20.png,128G,Blue,307.0
+Samsung,Smartphone,Note,Galaxy,Note 20,/images/models/samsung/web_note20.png,256G,Red,597.0
+Samsung,Smartphone,Note,Galaxy,Note 20,/images/models/samsung/web_note20.png,256G,Blue,773.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,/images/models/samsung/web_samsung-galaxy-note-20.png,128G,Red,944.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,/images/models/samsung/web_samsung-galaxy-note-20.png,128G,Blue,646.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,/images/models/samsung/web_samsung-galaxy-note-20.png,256G,Red,402.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,/images/models/samsung/web_samsung-galaxy-note-20.png,256G,Blue,614.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,128G,Red,594.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,128G,Blue,914.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,256G,Red,727.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,256G,Blue,934.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,128G,Red,984.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,128G,Blue,173.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,256G,Red,783.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,/images/models/samsung/web_samsung-galaxy-note-20-ultra-5g.png,256G,Blue,398.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,/images/models/samsung/web_note-10-plus-5g.png,128G,Red,224.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,/images/models/samsung/web_note-10-plus-5g.png,128G,Blue,318.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,/images/models/samsung/web_note-10-plus-5g.png,256G,Red,277.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,/images/models/samsung/web_note-10-plus-5g.png,256G,Blue,382.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,/images/models/samsung/web_note10plus.png,128G,Red,846.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,/images/models/samsung/web_note10plus.png,128G,Blue,217.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,/images/models/samsung/web_note10plus.png,256G,Red,468.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,/images/models/samsung/web_note10plus.png,256G,Blue,574.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,/images/models/samsung/web_note-10-plus-5g.png,128G,Red,230.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,/images/models/samsung/web_note-10-plus-5g.png,128G,Blue,796.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,/images/models/samsung/web_note-10-plus-5g.png,256G,Red,931.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,/images/models/samsung/web_note-10-plus-5g.png,256G,Blue,988.0
+Samsung,Smartphone,Note,Galaxy,Note 10,/images/models/samsung/web_note-10-plus-5g.png,128G,Red,516.0
+Samsung,Smartphone,Note,Galaxy,Note 10,/images/models/samsung/web_note-10-plus-5g.png,128G,Blue,739.0
+Samsung,Smartphone,Note,Galaxy,Note 10,/images/models/samsung/web_note-10-plus-5g.png,256G,Red,688.0
+Samsung,Smartphone,Note,Galaxy,Note 10,/images/models/samsung/web_note-10-plus-5g.png,256G,Blue,565.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,/images/models/samsung/web_note-10-lite.png,128G,Red,525.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,/images/models/samsung/web_note-10-lite.png,128G,Blue,160.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,/images/models/samsung/web_note-10-lite.png,256G,Red,179.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,/images/models/samsung/web_note-10-lite.png,256G,Blue,898.0
+Samsung,Smartphone,Note,Galaxy,Note 9,/images/models/samsung/web_samsung-galaxy-note-9.png,128G,Red,194.0
+Samsung,Smartphone,Note,Galaxy,Note 9,/images/models/samsung/web_samsung-galaxy-note-9.png,128G,Blue,262.0
+Samsung,Smartphone,Note,Galaxy,Note 9,/images/models/samsung/web_samsung-galaxy-note-9.png,256G,Red,562.0
+Samsung,Smartphone,Note,Galaxy,Note 9,/images/models/samsung/web_samsung-galaxy-note-9.png,256G,Blue,717.0
+Samsung,Smartphone,Note,Galaxy,Note 8,/images/models/samsung/web_samsung-galaxy-note-8.png,128G,Red,159.0
+Samsung,Smartphone,Note,Galaxy,Note 8,/images/models/samsung/web_samsung-galaxy-note-8.png,128G,Blue,439.0
+Samsung,Smartphone,Note,Galaxy,Note 8,/images/models/samsung/web_samsung-galaxy-note-8.png,256G,Red,191.0
+Samsung,Smartphone,Note,Galaxy,Note 8,/images/models/samsung/web_samsung-galaxy-note-8.png,256G,Blue,936.0
+Samsung,Smartphone,Note,Galaxy,Note FE,/images/models/samsung/web_samsung-galaxy-note-edge.png,128G,Red,899.0
+Samsung,Smartphone,Note,Galaxy,Note FE,/images/models/samsung/web_samsung-galaxy-note-edge.png,128G,Blue,250.0
+Samsung,Smartphone,Note,Galaxy,Note FE,/images/models/samsung/web_samsung-galaxy-note-edge.png,256G,Red,153.0
+Samsung,Smartphone,Note,Galaxy,Note FE,/images/models/samsung/web_samsung-galaxy-note-edge.png,256G,Blue,481.0
+Samsung,Smartphone,Note,Galaxy,Note 7,/images/models/samsung/web_samsungnote7.png,128G,Red,713.0
+Samsung,Smartphone,Note,Galaxy,Note 7,/images/models/samsung/web_samsungnote7.png,128G,Blue,731.0
+Samsung,Smartphone,Note,Galaxy,Note 7,/images/models/samsung/web_samsungnote7.png,256G,Red,964.0
+Samsung,Smartphone,Note,Galaxy,Note 7,/images/models/samsung/web_samsungnote7.png,256G,Blue,929.0
+Samsung,Smartphone,Note,Galaxy,Note 5,/images/models/samsung/web_samsung-galaxy-note-5.png,128G,Red,259.0
+Samsung,Smartphone,Note,Galaxy,Note 5,/images/models/samsung/web_samsung-galaxy-note-5.png,128G,Blue,860.0
+Samsung,Smartphone,Note,Galaxy,Note 5,/images/models/samsung/web_samsung-galaxy-note-5.png,256G,Red,654.0
+Samsung,Smartphone,Note,Galaxy,Note 5,/images/models/samsung/web_samsung-galaxy-note-5.png,256G,Blue,529.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,/images/models/samsung/web_z-fold.png,128G,Red,355.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,/images/models/samsung/web_z-fold.png,128G,Blue,396.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,/images/models/samsung/web_z-fold.png,256G,Red,284.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,/images/models/samsung/web_z-fold.png,256G,Blue,846.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,/images/models/samsung/web_samsung-galaxy-fold.png,128G,Red,152.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,/images/models/samsung/web_samsung-galaxy-fold.png,128G,Blue,949.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,/images/models/samsung/web_samsung-galaxy-fold.png,256G,Red,983.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,/images/models/samsung/web_samsung-galaxy-fold.png,256G,Blue,764.0
+Samsung,Smartphone,S,Galaxy,FOLD,/images/models/samsung/web_samsung-galaxy-fold.png,128G,Red,738.0
+Samsung,Smartphone,S,Galaxy,FOLD,/images/models/samsung/web_samsung-galaxy-fold.png,128G,Blue,407.0
+Samsung,Smartphone,S,Galaxy,FOLD,/images/models/samsung/web_samsung-galaxy-fold.png,256G,Red,795.0
+Samsung,Smartphone,S,Galaxy,FOLD,/images/models/samsung/web_samsung-galaxy-fold.png,256G,Blue,128.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,/images/models/samsung/web_samsung-galaxy-zflip.png,128G,Red,397.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,/images/models/samsung/web_samsung-galaxy-zflip.png,128G,Blue,599.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,/images/models/samsung/web_samsung-galaxy-zflip.png,256G,Red,862.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,/images/models/samsung/web_samsung-galaxy-zflip.png,256G,Blue,638.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,/images/models/samsung/web_samsung-galaxy-zflip-5g.png,128G,Red,924.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,/images/models/samsung/web_samsung-galaxy-zflip-5g.png,128G,Blue,419.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,/images/models/samsung/web_samsung-galaxy-zflip-5g.png,256G,Red,369.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,/images/models/samsung/web_samsung-galaxy-zflip-5g.png,256G,Blue,412.0

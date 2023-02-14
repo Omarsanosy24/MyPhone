@@ -1,0 +1,1089 @@
+company,category,series,product,model,Storage,Color,price
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Red,746.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Blue,992.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Red,399.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Blue,131.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Red,446.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Blue,937.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Red,643.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Blue,927.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Red,686.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Blue,811.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Red,349.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Blue,555.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Red,305.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Blue,644.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Red,921.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Blue,289.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Red,842.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Blue,203.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Red,998.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Blue,949.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Red,451.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Blue,103.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Red,616.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Blue,847.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Red,821.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Blue,400.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Red,972.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Blue,293.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Red,265.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Blue,628.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Red,404.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Blue,534.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Red,976.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Blue,357.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Red,816.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Blue,925.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Red,453.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Blue,114.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Red,406.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Blue,454.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Red,864.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Blue,225.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Red,988.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Blue,852.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Red,427.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Blue,960.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Red,276.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Blue,683.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Red,990.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Blue,789.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Red,763.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Blue,334.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Red,107.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Blue,768.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Red,700.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Blue,511.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Red,153.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Blue,164.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Red,657.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Blue,481.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Red,347.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Blue,669.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Red,680.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Blue,358.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Red,503.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Blue,399.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Red,247.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Blue,836.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Red,329.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Blue,155.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Red,431.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Blue,933.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Red,598.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Blue,734.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Red,886.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Blue,434.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Red,687.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Blue,556.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Red,586.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Blue,758.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Red,219.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Blue,301.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Red,614.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Blue,892.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Red,864.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Blue,789.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Red,653.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Blue,982.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Red,189.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Blue,234.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Red,843.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Blue,380.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Red,777.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Blue,223.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Red,443.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Blue,127.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Red,574.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Blue,202.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Red,467.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Blue,492.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Red,805.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Blue,222.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Red,816.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Blue,707.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Red,787.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Blue,736.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Red,524.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Blue,900.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Red,330.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Blue,459.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Red,573.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Blue,815.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Red,415.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Blue,429.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Red,909.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Blue,875.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Red,127.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Blue,817.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Red,521.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Blue,684.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Red,792.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Blue,769.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Red,397.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Blue,484.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Red,868.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Blue,678.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Red,222.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Blue,485.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Red,986.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Blue,986.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Red,669.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Blue,626.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Red,250.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Blue,113.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Red,487.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Blue,701.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Red,369.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Blue,467.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Red,161.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Blue,516.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Red,236.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Blue,741.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Red,242.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Blue,859.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Red,173.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Blue,429.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Red,554.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Blue,684.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Red,994.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Blue,206.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Red,362.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Blue,633.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Red,676.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Blue,316.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Red,510.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Blue,456.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Red,689.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Blue,254.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Red,644.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Blue,644.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Red,171.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Blue,887.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Red,439.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Blue,194.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Red,247.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Blue,644.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Red,693.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Blue,171.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Red,877.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Blue,485.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Red,131.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Blue,453.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Red,215.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Blue,760.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Red,949.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Blue,900.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Red,268.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Blue,941.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Red,687.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Blue,492.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Red,737.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Blue,731.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Red,318.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Blue,894.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Red,998.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Blue,894.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Red,556.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Blue,874.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Red,642.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Blue,580.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Red,110.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Blue,643.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Red,915.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Blue,524.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Red,141.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Blue,408.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Red,495.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Blue,221.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Red,161.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Blue,907.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Red,653.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Blue,387.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Red,629.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Blue,531.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Red,607.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Blue,522.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Red,257.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Blue,403.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Red,524.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Blue,977.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Red,930.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Blue,979.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Red,595.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Blue,940.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Red,401.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Blue,920.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Red,591.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Blue,169.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Red,170.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Blue,516.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Red,240.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Blue,274.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Red,690.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Blue,494.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Red,261.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Blue,796.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Red,646.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Blue,191.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Red,755.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Blue,234.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Red,450.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Blue,545.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Red,897.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Blue,394.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Red,819.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Blue,179.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Red,398.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Blue,678.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Red,565.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Blue,388.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Red,540.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Blue,222.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Red,627.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Blue,393.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Red,101.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Blue,861.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Red,280.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Blue,659.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Red,279.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Blue,644.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Red,744.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Blue,213.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Red,566.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Blue,433.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Red,777.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Blue,744.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Red,530.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Blue,522.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Red,813.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Blue,837.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Red,101.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Blue,367.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Red,806.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Blue,596.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Red,673.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Blue,1000.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Red,756.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Blue,903.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Red,332.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Blue,787.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Red,255.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Blue,602.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Red,131.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Blue,102.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Red,730.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Blue,799.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Red,826.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Blue,375.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Red,167.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Blue,843.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Red,526.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Blue,726.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Red,835.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Blue,542.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Red,402.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Blue,940.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Red,279.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Blue,790.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Red,238.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Blue,612.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Red,371.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Blue,337.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Red,466.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Blue,255.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Red,471.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Blue,754.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Red,753.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Blue,128.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Red,279.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Blue,212.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Red,768.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Blue,490.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Red,201.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Blue,898.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Red,953.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Blue,188.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Red,465.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Blue,367.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Red,688.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Blue,753.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Red,672.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Blue,251.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Red,556.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Blue,399.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Red,826.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Blue,948.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Red,995.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Blue,683.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Red,661.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Blue,417.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Red,184.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Blue,223.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Red,415.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Blue,736.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Red,998.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Blue,286.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Red,561.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Blue,987.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Red,131.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Blue,827.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Red,943.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Blue,758.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Red,529.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Blue,111.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Red,766.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Blue,528.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Red,343.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Blue,883.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Red,593.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Blue,959.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Red,746.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Blue,962.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Red,325.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Blue,821.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Red,795.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Blue,462.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Red,538.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Blue,515.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Red,279.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Blue,928.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Red,581.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Blue,551.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Red,705.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Blue,715.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Red,359.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Blue,807.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Red,334.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Blue,621.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Red,581.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Blue,858.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Red,376.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Blue,114.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Red,334.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Blue,169.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Red,785.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Blue,707.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Red,262.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Blue,700.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Red,867.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Blue,106.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Red,111.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Blue,156.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Red,242.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Blue,412.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Red,413.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Blue,456.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Red,327.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Blue,202.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Red,708.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Blue,308.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Red,760.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Blue,627.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Red,154.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Blue,966.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Red,538.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Blue,782.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Red,917.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Blue,250.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Red,882.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Blue,797.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Red,808.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Blue,720.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Red,341.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Blue,338.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Red,579.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Blue,609.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Red,897.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Blue,907.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Red,290.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Blue,499.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Red,108.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Blue,766.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Red,585.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Blue,544.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Red,754.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Blue,322.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Red,271.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Blue,670.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Red,913.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Blue,485.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Red,319.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Blue,406.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Red,994.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Blue,848.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Red,368.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Blue,370.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Red,363.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Blue,959.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Red,949.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Blue,813.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Red,518.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Blue,633.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Red,123.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Blue,613.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Red,847.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Blue,358.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Red,760.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Blue,769.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Red,129.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Blue,118.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Red,732.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Blue,427.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Red,973.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Blue,124.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Red,673.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Blue,109.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Red,818.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Blue,321.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Red,809.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Blue,420.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Red,724.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Blue,558.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Red,980.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Blue,414.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Red,896.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Blue,656.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Red,583.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Blue,736.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Red,629.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Blue,609.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Red,466.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Blue,480.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Red,359.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Blue,459.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Red,203.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Blue,242.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Red,606.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Blue,543.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Red,189.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Blue,641.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Red,661.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Blue,329.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Red,364.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Blue,413.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Red,611.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Blue,219.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Red,359.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Blue,788.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Red,176.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Blue,387.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Red,775.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Blue,680.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Red,793.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Blue,910.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Red,730.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Blue,703.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Red,174.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Blue,207.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Red,661.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Blue,690.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Red,518.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Blue,136.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Red,391.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Blue,934.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Red,263.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Blue,427.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Red,123.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Blue,497.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Red,649.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Blue,941.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Red,468.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Blue,596.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Red,636.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Blue,885.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Red,432.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Blue,900.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Red,476.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Blue,795.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Red,256.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Blue,836.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Red,239.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Blue,839.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Red,430.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Blue,602.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Red,316.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Blue,880.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Red,660.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Blue,150.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Red,770.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Blue,281.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Red,434.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Blue,716.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Red,647.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Blue,266.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Red,466.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Blue,378.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Red,255.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Blue,427.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Red,937.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Blue,713.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Red,874.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Blue,126.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Red,218.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Blue,301.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Red,642.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Blue,797.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Red,282.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Blue,544.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Red,269.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Blue,431.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Red,852.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Blue,918.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Red,103.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Blue,758.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Red,481.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Blue,959.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Red,427.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Blue,266.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Red,245.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Blue,855.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Red,936.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Blue,927.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Red,155.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Blue,760.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Red,388.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Blue,578.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Red,305.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Blue,819.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Red,701.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Blue,372.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Red,812.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Blue,643.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Red,737.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Blue,235.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Red,924.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Blue,115.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Red,786.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Blue,129.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Red,817.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Blue,905.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Red,378.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Blue,282.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Red,445.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Blue,745.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Red,142.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Blue,273.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Red,127.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Blue,214.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Red,795.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Blue,415.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Red,434.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Blue,257.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Red,670.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Blue,594.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Red,722.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Blue,679.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Red,810.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Blue,592.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Red,149.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Blue,878.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Red,215.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Blue,827.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Red,796.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Blue,876.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Red,725.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Blue,968.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Red,985.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Blue,205.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Red,749.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Blue,738.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Red,609.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Blue,178.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Red,126.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Blue,316.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Red,186.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Blue,412.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Red,962.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Blue,997.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Red,445.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Blue,595.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Red,827.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Blue,242.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Red,103.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Blue,655.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Red,100.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Blue,459.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Red,412.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Blue,760.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Red,218.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Blue,856.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Red,122.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Blue,209.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Red,233.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Blue,964.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Red,818.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Blue,681.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Red,284.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Blue,592.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Red,828.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Blue,909.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Red,615.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Blue,866.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Red,585.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Blue,468.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Red,684.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Blue,540.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Red,386.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Blue,374.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Red,162.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Blue,678.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Red,914.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Blue,331.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Red,430.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Blue,148.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Red,745.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Blue,814.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Red,518.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Blue,735.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Red,602.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Blue,987.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Red,695.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Blue,310.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Red,483.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Blue,476.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Red,152.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Blue,372.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Red,661.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Blue,106.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Red,284.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Blue,269.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Red,343.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Blue,255.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Red,775.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Blue,680.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Red,165.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Blue,817.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Red,824.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Blue,723.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Red,614.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Blue,595.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Red,342.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Blue,458.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Red,771.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Blue,276.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Red,337.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Blue,671.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Red,522.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Blue,114.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Red,600.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Blue,243.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Red,750.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Blue,418.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Red,466.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Blue,428.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Red,109.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Blue,706.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Red,906.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Blue,972.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Red,461.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Blue,434.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Red,480.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Blue,293.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Red,630.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Blue,248.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Red,868.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Blue,395.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Red,234.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Blue,757.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Red,999.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Blue,316.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Red,160.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Blue,284.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Red,347.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Blue,986.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Red,162.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Blue,577.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Red,134.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Blue,466.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Red,961.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Blue,897.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Red,368.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Blue,300.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Red,860.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Blue,424.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Red,985.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Blue,573.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Red,421.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Blue,257.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Red,940.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Blue,617.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Red,226.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Blue,475.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Red,622.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Blue,691.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Red,256.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Blue,164.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Red,804.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Blue,638.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Red,588.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Blue,412.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Red,666.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Blue,882.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Red,329.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Blue,222.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Red,875.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Blue,673.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Red,905.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Blue,466.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Red,932.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Blue,232.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Red,838.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Blue,809.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Red,105.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Blue,635.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Red,495.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Blue,727.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Red,905.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Blue,907.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Red,728.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Blue,711.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Red,855.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Blue,706.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Red,491.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Blue,443.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Red,548.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Blue,522.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Red,606.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Blue,580.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Red,429.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Blue,547.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Red,982.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Blue,316.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Red,382.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Blue,266.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Red,624.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Blue,260.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Red,992.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Blue,173.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Red,278.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Blue,924.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Red,558.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Blue,538.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Red,348.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Blue,839.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Red,211.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Blue,760.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Red,593.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Blue,302.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Red,802.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Blue,817.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Red,805.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Blue,346.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Red,331.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Blue,372.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Red,563.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Blue,334.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Red,138.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Blue,785.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Red,616.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Blue,350.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Red,779.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Blue,804.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Red,180.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Blue,327.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Red,119.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Blue,732.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Red,814.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Blue,721.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Red,616.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Blue,913.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Red,114.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Blue,886.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Red,511.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Blue,252.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Red,797.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Blue,723.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Red,887.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Blue,791.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Red,578.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Blue,882.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Red,769.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Blue,841.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Red,727.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Blue,766.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Red,129.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Blue,108.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Red,1001.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Blue,294.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Red,859.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Blue,995.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Red,379.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Blue,190.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Red,531.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Blue,284.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Red,890.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Blue,914.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Red,709.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,128G,Blue,225.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Red,776.0
+Apple,Smartphone,iPhone,iPhone,13 Pro Max,256G,Blue,230.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Red,935.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,128G,Blue,174.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Red,718.0
+Apple,Smartphone,iPhone,iPhone,13 Pro,256G,Blue,957.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Red,787.0
+Apple,Smartphone,iPhone,iPhone,13,128G,Blue,841.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Red,512.0
+Apple,Smartphone,iPhone,iPhone,13,256G,Blue,550.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Red,919.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,128G,Blue,831.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Red,830.0
+Apple,Smartphone,iPhone,iPhone,13 Mini,256G,Blue,451.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Red,823.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,128G,Blue,100.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Red,436.0
+Apple,Smartphone,iPhone,iPhone,12 Pro Max,256G,Blue,752.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Red,849.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,128G,Blue,328.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Red,510.0
+Apple,Smartphone,iPhone,iPhone,12 Pro,256G,Blue,119.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Red,901.0
+Apple,Smartphone,iPhone,iPhone,12,128G,Blue,226.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Red,468.0
+Apple,Smartphone,iPhone,iPhone,12,256G,Blue,342.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Red,418.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,128G,Blue,593.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Red,659.0
+Apple,Smartphone,iPhone,iPhone,12 Mini,256G,Blue,252.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Red,809.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,128G,Blue,760.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Red,273.0
+Apple,Smartphone,iPhone,iPhone,11 Pro Max,256G,Blue,770.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Red,130.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,128G,Blue,115.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Red,280.0
+Apple,Smartphone,iPhone,iPhone,11 Pro,256G,Blue,268.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Red,197.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),128G,Blue,674.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Red,818.0
+Apple,Smartphone,iPhone,iPhone,SE (2020),256G,Blue,953.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Red,908.0
+Apple,Smartphone,iPhone,iPhone,11,128G,Blue,170.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Red,766.0
+Apple,Smartphone,iPhone,iPhone,11,256G,Blue,532.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Red,888.0
+Apple,Smartphone,iPhone,iPhone,XR,128G,Blue,493.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Red,720.0
+Apple,Smartphone,iPhone,iPhone,XR,256G,Blue,496.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Red,822.0
+Apple,Smartphone,iPhone,iPhone,X,128G,Blue,281.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Red,319.0
+Apple,Smartphone,iPhone,iPhone,X,256G,Blue,342.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Red,430.0
+Apple,Smartphone,iPhone,iPhone,XS,128G,Blue,797.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Red,468.0
+Apple,Smartphone,iPhone,iPhone,XS,256G,Blue,968.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Red,140.0
+Apple,Smartphone,iPhone,iPhone,XS Max,128G,Blue,740.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Red,779.0
+Apple,Smartphone,iPhone,iPhone,XS Max,256G,Blue,527.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Red,274.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,128G,Blue,149.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Red,904.0
+Apple,Smartphone,iPhone,iPhone,8 Plus,256G,Blue,391.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Red,328.0
+Apple,Smartphone,iPhone,iPhone,8,128G,Blue,506.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Red,667.0
+Apple,Smartphone,iPhone,iPhone,8,256G,Blue,669.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Red,446.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,128G,Blue,998.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Red,886.0
+Apple,Smartphone,iPhone,iPhone,7 Plus,256G,Blue,542.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Red,966.0
+Apple,Smartphone,iPhone,iPhone,7,128G,Blue,540.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Red,658.0
+Apple,Smartphone,iPhone,iPhone,7,256G,Blue,187.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Red,722.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,128G,Blue,153.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Red,103.0
+Apple,Smartphone,iPhone,iPhone,6s Plus,256G,Blue,622.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Red,429.0
+Apple,Smartphone,iPhone,iPhone,6s,128G,Blue,987.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Red,542.0
+Apple,Smartphone,iPhone,iPhone,6s,256G,Blue,347.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Red,248.0
+Apple,Smartphone,iPhone,iPhone,6,128G,Blue,959.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Red,779.0
+Apple,Smartphone,iPhone,iPhone,6,256G,Blue,151.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Red,195.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,128G,Blue,308.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Red,317.0
+Apple,Smartphone,iPhone,iPhone,6 Plus,256G,Blue,971.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Red,474.0
+Apple,Smartphone,iPhone,iPhone,5SE,128G,Blue,123.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Red,879.0
+Apple,Smartphone,iPhone,iPhone,5SE,256G,Blue,771.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Red,790.0
+Apple,Smartphone,iPhone,iPhone,5S,128G,Blue,102.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Red,516.0
+Apple,Smartphone,iPhone,iPhone,5S,256G,Blue,236.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Red,716.0
+Apple,Smartphone,iPhone,iPhone,5C,128G,Blue,198.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Red,803.0
+Apple,Smartphone,iPhone,iPhone,5C,256G,Blue,593.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Red,595.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,128G,Blue,327.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Red,200.0
+Samsung,Smartphone,S,Galaxy,S21 Ultra 5G,256G,Blue,997.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Red,234.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,128G,Blue,985.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Red,457.0
+Samsung,Smartphone,S,Galaxy,S21+ 5G,256G,Blue,649.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Red,536.0
+Samsung,Smartphone,S,Galaxy,S21 5G,128G,Blue,163.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Red,243.0
+Samsung,Smartphone,S,Galaxy,S21 5G,256G,Blue,213.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Red,746.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,128G,Blue,751.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Red,209.0
+Samsung,Smartphone,S,Galaxy,S21 FE 5G,256G,Blue,346.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Red,123.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,128G,Blue,584.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Red,431.0
+Samsung,Smartphone,S,Galaxy,S20 Ultra 5G,256G,Blue,615.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Red,635.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,128G,Blue,740.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Red,665.0
+Samsung,Smartphone,S,Galaxy,S20+ 5G,256G,Blue,766.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Red,276.0
+Samsung,Smartphone,S,Galaxy,S20 5G,128G,Blue,100.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Red,273.0
+Samsung,Smartphone,S,Galaxy,S20 5G,256G,Blue,215.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Red,543.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,128G,Blue,254.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Red,350.0
+Samsung,Smartphone,S,Galaxy,S20FE 5G,256G,Blue,938.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Red,892.0
+Samsung,Smartphone,S,Galaxy,S20,128G,Blue,448.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Red,114.0
+Samsung,Smartphone,S,Galaxy,S20,256G,Blue,174.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Red,460.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,128G,Blue,655.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Red,500.0
+Samsung,Smartphone,S,Galaxy,S20 5G UW,256G,Blue,646.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Red,484.0
+Samsung,Smartphone,S,Galaxy,S10 5G,128G,Blue,491.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Red,877.0
+Samsung,Smartphone,S,Galaxy,S10 5G,256G,Blue,114.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Red,384.0
+Samsung,Smartphone,S,Galaxy,S10+,128G,Blue,390.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Red,682.0
+Samsung,Smartphone,S,Galaxy,S10+,256G,Blue,352.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Red,527.0
+Samsung,Smartphone,S,Galaxy,S10,128G,Blue,326.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Red,471.0
+Samsung,Smartphone,S,Galaxy,S10,256G,Blue,224.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Red,485.0
+Samsung,Smartphone,S,Galaxy,S10E,128G,Blue,795.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Red,449.0
+Samsung,Smartphone,S,Galaxy,S10E,256G,Blue,876.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Red,563.0
+Samsung,Smartphone,S,Galaxy,S9+,128G,Blue,125.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Red,969.0
+Samsung,Smartphone,S,Galaxy,S9+,256G,Blue,503.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Red,263.0
+Samsung,Smartphone,S,Galaxy,S9,128G,Blue,908.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Red,794.0
+Samsung,Smartphone,S,Galaxy,S9,256G,Blue,863.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Red,217.0
+Samsung,Smartphone,S,Galaxy,S8,128G,Blue,962.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Red,471.0
+Samsung,Smartphone,S,Galaxy,S8,256G,Blue,442.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Red,536.0
+Samsung,Smartphone,S,Galaxy,S8+,128G,Blue,828.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Red,464.0
+Samsung,Smartphone,S,Galaxy,S8+,256G,Blue,734.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Red,106.0
+Samsung,Smartphone,S,Galaxy,S8 Active,128G,Blue,455.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Red,635.0
+Samsung,Smartphone,S,Galaxy,S8 Active,256G,Blue,463.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Red,982.0
+Samsung,Smartphone,S,Galaxy,S7 Active,128G,Blue,179.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Red,210.0
+Samsung,Smartphone,S,Galaxy,S7 Active,256G,Blue,323.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Red,192.0
+Samsung,Smartphone,S,Galaxy,S7,128G,Blue,721.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Red,761.0
+Samsung,Smartphone,S,Galaxy,S7,256G,Blue,442.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Red,541.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,128G,Blue,761.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Red,403.0
+Samsung,Smartphone,S,Galaxy,S7 Edge,256G,Blue,663.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Red,359.0
+Samsung,Smartphone,Note,Galaxy,Note 20,128G,Blue,248.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Red,195.0
+Samsung,Smartphone,Note,Galaxy,Note 20,256G,Blue,899.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Red,465.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,128G,Blue,260.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Red,804.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra,256G,Blue,901.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Red,710.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,128G,Blue,600.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Red,819.0
+Samsung,Smartphone,Note,Galaxy,Note 20 5G,256G,Blue,674.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Red,219.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,128G,Blue,990.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Red,408.0
+Samsung,Smartphone,Note,Galaxy,Note 20 Ultra 5G,256G,Blue,922.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Red,573.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,128G,Blue,759.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Red,392.0
+Samsung,Smartphone,Note,Galaxy,Note 10+ 5G,256G,Blue,270.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Red,180.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,128G,Blue,776.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Red,691.0
+Samsung,Smartphone,Note,Galaxy,Note 10+,256G,Blue,374.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Red,445.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,128G,Blue,363.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Red,613.0
+Samsung,Smartphone,Note,Galaxy,Note 10 5G,256G,Blue,173.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Red,130.0
+Samsung,Smartphone,Note,Galaxy,Note 10,128G,Blue,635.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Red,249.0
+Samsung,Smartphone,Note,Galaxy,Note 10,256G,Blue,272.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Red,844.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,128G,Blue,212.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Red,983.0
+Samsung,Smartphone,Note,Galaxy,Note 10 Lite,256G,Blue,414.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Red,697.0
+Samsung,Smartphone,Note,Galaxy,Note 9,128G,Blue,982.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Red,597.0
+Samsung,Smartphone,Note,Galaxy,Note 9,256G,Blue,833.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Red,392.0
+Samsung,Smartphone,Note,Galaxy,Note 8,128G,Blue,371.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Red,729.0
+Samsung,Smartphone,Note,Galaxy,Note 8,256G,Blue,240.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Red,297.0
+Samsung,Smartphone,Note,Galaxy,Note FE,128G,Blue,539.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Red,764.0
+Samsung,Smartphone,Note,Galaxy,Note FE,256G,Blue,814.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Red,749.0
+Samsung,Smartphone,Note,Galaxy,Note 7,128G,Blue,332.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Red,299.0
+Samsung,Smartphone,Note,Galaxy,Note 7,256G,Blue,894.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Red,398.0
+Samsung,Smartphone,Note,Galaxy,Note 5,128G,Blue,242.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Red,363.0
+Samsung,Smartphone,Note,Galaxy,Note 5,256G,Blue,131.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Red,678.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,128G,Blue,939.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Red,948.0
+Samsung,Smartphone,Z,Galaxy,Z FOLD 2 5G,256G,Blue,841.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Red,756.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,128G,Blue,617.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Red,493.0
+Samsung,Smartphone,S,Galaxy,FOLD 5G,256G,Blue,163.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Red,348.0
+Samsung,Smartphone,S,Galaxy,FOLD,128G,Blue,884.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Red,976.0
+Samsung,Smartphone,S,Galaxy,FOLD,256G,Blue,257.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Red,555.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,128G,Blue,397.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Red,530.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP,256G,Blue,393.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Red,438.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,128G,Blue,147.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Red,340.0
+Samsung,Smartphone,Z,Galaxy,Z FLIP 5G,256G,Blue,494.0
