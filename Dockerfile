@@ -4,4 +4,4 @@ WORKDIR /app
 COPY pyproject.toml poetry.lock ./
 RUN poetry install
 COPY . .
-CMD ["poe", "start"]
+CMD ['poetry run gunicorn --bind 0.0.0.0:8000 myphone.wsgi']
