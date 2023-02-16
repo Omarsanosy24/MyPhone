@@ -6,26 +6,16 @@ authors = ["Yahya Abou Imran <alexandre.poitevin.dev@gmail.com>"]
 readme = "README.md"
 
 
-[tool.poe.env]
-
-MANAGE = "./manage.py"
-
 [tool.poe.tasks]
 
-_users = "$MANAGE createusers"
+_users = "./manage.py createusers"
 
     [tool.poe.tasks.db]
     help = "[Re-]Build the database"
     sequence = [
         { shell = "rm db.sqlite3 || true"            },
-        { cmd   = "$MANAGE migrate --run-syncdb" },
+        { cmd   = "./manage.py migrate --run-syncdb" },
     ]
-
-    [tool.poe.tasks._loaddata]
-    cmd = """
-        $MANAGE loaddata resources/fixtures/${file}.json
-    """
-    args = [{ name = "file", positional = true }]
 
     [tool.poe.tasks.load]
     help = "Load base data"
@@ -39,15 +29,16 @@ _users = "$MANAGE createusers"
 
         [[tool.poe.tasks.load.switch]]
         case = ["m", "mini", "minimal"]
-        ref = "_loaddata mini"
+        shell = "./manage.py loaddata resources/minifixtures.json"
 
         [[tool.poe.tasks.load.switch]]
-        ref = "_loaddata full"
+        env = { fixtures = "resources/fixtures.json" }
+        shell = "./manage.py loaddata resources/fixtures.json"
 
     [tool.poe.tasks.run]
     help = "Run the Django server"
     cmd = """
-        $MANAGE runserver 0.0.0.0:8000
+        ./manage.py runserver 0.0.0.0:8000
     """
 
     [tool.poe.tasks.start]
@@ -62,9 +53,15 @@ _users = "$MANAGE createusers"
     help = "Run the Django server in dev mode with minimal base data"
     sequence = [
         "db",
-        "load minimal",
+        "load --pack minimal",
         "run",
     ]
+
+    [tool.poe.tasks.schemas]
+    help = "Write the OpenAPI schemas"
+    cmd = """
+        ./manage.py spectacular --file resources/openapi-schema.yml
+    """
 
     [tool.poe.tasks.tests]
     help = "Run all tests (unit / integration / functional)"
@@ -76,12 +73,6 @@ _users = "$MANAGE createusers"
     help = "Compute code coverage from tests"
     ref = """
         tests --cov=apps --cov-report=term-missing --cov-report=html
-    """
-
-    [tool.poe.tasks.schemas]
-    help = "Write the OpenAPI schemas"
-    cmd = """
-        $MANAGE spectacular --file resources/openapi-schema.yml
     """
 
 

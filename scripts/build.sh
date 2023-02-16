@@ -1,2 +1,3 @@
 pip install poetry -U
-poetry install --without=dev
+poetry install
+sh scripts/resetdb.sh

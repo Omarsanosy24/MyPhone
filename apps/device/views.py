@@ -1,22 +1,11 @@
 from drf_spectacular.utils import extend_schema
 from drf_spectacular.utils import OpenApiExample
+from drf_spectacular.utils import OpenApiResponse
 from rest_framework.decorators import action
-from rest_framework.generics import RetrieveAPIView
 from rest_framework.response import Response
 
 from apps.core.lib import views
-from apps.device import models
-from apps.device import serializers
-from apps.device import services
-
-
-def retrieve_related(request, model, queryset):
-    serializer = serializers.serializers.make_serializer_class(model)(
-        instance=queryset,
-        many=True,
-        context={"request": request},
-    )
-    return Response(serializer.data)
+from apps.device import models, services, serializers
 
 
 class Company(views.ModelViewSet):
@@ -26,13 +15,6 @@ class Company(views.ModelViewSet):
         "name",
     ]
 
-    @action(detail=True)
-    def products(self, request, *args, **kwargs):
-        """Retrieve all products for the current company."""
-        return retrieve_related(
-            request, models.Product, self.get_object().product_set.all(),
-        )
-
 
 class Category(views.ModelViewSet):
     serializer_class = serializers.Category
@@ -40,13 +22,6 @@ class Category(views.ModelViewSet):
     search_fields = [
         "name",
     ]
-
-    @action(detail=True)
-    def products(self, request, *args, **kwargs):
-        """Retrieve all products for the current company."""
-        return retrieve_related(
-            request, models.Product, self.get_object().product_set.all(),
-        )
 
 
 class Product(views.ModelViewSet):
@@ -57,13 +32,6 @@ class Product(views.ModelViewSet):
         "company__name",
     ]
 
-    @action(detail=True)
-    def series(self, request, *args, **kwargs):
-        """Retrieve all series for the current product."""
-        return retrieve_related(
-            request, models.Series, self.get_object().series_set.all(),
-        )
-
 
 class Series(views.ModelViewSet):
     serializer_class = serializers.Series
@@ -73,13 +41,6 @@ class Series(views.ModelViewSet):
         "product__name",
         "product__company__name",
     ]
-
-    @action(detail=True)
-    def models(self, request, *args, **kwargs):
-        """Retrieve all models for the current series."""
-        return retrieve_related(
-            request, models.Model, self.get_object().model_set.all(),
-        )
 
 
 class Model(views.ModelViewSet):
@@ -103,11 +64,9 @@ class Model(views.ModelViewSet):
         return Response(data)
 
     @extend_schema(examples=[
-        OpenApiExample("sample", [
-            {"Storage": "256G", "Color": "Red", "price": "100", "id": "1"}
-        ]),
+        OpenApiExample("", [{"Storage": "256G", "Color": "Red"}]),
     ])
-    @action(detail=True, url_path="available-variants")
+    @action(detail=True)
     def available_variants(self, *args, **kwargs):
         """Retrieve the variants existing in stock for this model."""
         model = self.get_object()
@@ -124,7 +83,7 @@ class VariantGroup(views.ModelViewSet):
 class VariantValue(views.ModelViewSet):
     serializer_class = serializers.VariantValue
     queryset = models.VariantValue.objects.all()
-    search_fields = ["name"]
+    search_fields = ["value"]
 
 
 class ModelVariant(views.ModelViewSet):

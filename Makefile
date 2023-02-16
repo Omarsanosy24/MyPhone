@@ -1,7 +1,7 @@
 data:
-	poe db
+	sh scripts/resetdb.sh
 	sh scripts/data.sh
 
 minidata:
-	poe db
+	sh scripts/resetdb.sh
 	sh scripts/minidata.sh

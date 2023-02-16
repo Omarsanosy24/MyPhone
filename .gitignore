@@ -1,7 +1,6 @@
 __pycach__
 *.pyc
-db.sqlite*
+db.sqlite3
 .coverage
 logs
-.~*
 

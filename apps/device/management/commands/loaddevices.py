@@ -22,17 +22,13 @@ class Command(BaseCommand):
         "model",
     ]
 
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self._variants = []
-
     def add_arguments(self, parser):
         parser.add_argument(
-            "target",
+            "format",
             nargs="?",
             type=str,
-            choices=["base", "new", "others"],
-            default="new",
+            choices=["json", "csv"],
+            default="csv",
         )
         parser.add_argument(
             "--minimal",
@@ -41,18 +37,15 @@ class Command(BaseCommand):
         )
 
     def handle(self, *args, **options):
-        target = options["target"]
-        if target == "base":
-            self.handle_base(*args, **options)
+        if options["format"] == "json":
+            self.handle_json(*args, **options)
             self.add_variants()
-        elif target == "new":
-            self.handle_new(*args, **options)
-        elif target == "others":
-            self.handle_others(*args, **options)
+        else:
+            self.handle_csv(*args, **options)
         self.generate_devices()
         self.stdout.write(self.style.SUCCESS("Data successfully loaded"))
 
-    def handle_new(self, *args, **options):
+    def handle_csv(self, *args, **options):
         data = self.get_csv()
         for row in data:
             if options["minimal"]:
@@ -71,48 +64,28 @@ class Command(BaseCommand):
         with open(f"{self.data_folder}/db.json") as file:
             return json.load(file)
 
-    def handle_base(self, *args, **options):
+    def handle_json(self, *args, **options):
         data = self.get_json()
         for company in data["companies"]:
             self._make(models.Company, **company)
         for company in data["categories"]:
             self._make(models.Category, **company)
-        for product_ in data["products"]:
-            self._make(models.Product, **product_)
+        for product in data["products"]:
+            self._make(models.Product, **product)
         for series in data["series"]:
             self._make(models.Series, **series)
         for model in data["models"]:
             self._make(models.Model, **model)
 
     def add_variants(self):
+        storage = models.VariantGroup.objects.get_or_create(name="Storage")[0]
+        color = models.VariantGroup.objects.get_or_create(name="Color")[0]
+        g128 = models.VariantValue.objects.get_or_create(group=storage, value="128G")[0]
+        g256 = models.VariantValue.objects.get_or_create(group=storage, value="256G")[0]
+        red = models.VariantValue.objects.get_or_create(group=color, value="Red")[0]
+        blue = models.VariantValue.objects.get_or_create(group=color, value="Blue")[0]
         for model in models.Model.objects.all():
-            self._add_variants(model)
-
-    def get_variants_values(self):
-        if self._variants:
-            return self._variants
-        storage = models.VariantGroup.objects.get_or_create(name="storage")[0]
-        storages = [
-            models.VariantValue.objects.get_or_create(group=storage, name="128G")[0],
-            models.VariantValue.objects.get_or_create(group=storage, name="256G")[0],
-        ]
-        state = models.VariantGroup.objects.get_or_create(name="state")[0]
-        states = [
-            models.VariantValue.objects.get_or_create(group=state, name=name)[0]
-            for name in ("New", "A", "B", "C", "D", "Dead")
-        ]
-        carrier = models.VariantGroup.objects.get_or_create(name="carrier")[0]
-        carriers = [
-            models.VariantValue.objects.get_or_create(group=carrier, name=name)[0]
-            for name in ("Unlocked", "Other", "Verizon", "AT&T", "Mobile", "Sprint")
-        ]
-        color = models.VariantGroup.objects.get_or_create(name="color")[0]
-        colors = [
-            models.VariantValue.objects.get_or_create(group=color, name="Red")[0],
-            models.VariantValue.objects.get_or_create(group=color, name="Blue")[0],
-        ]
-        self._variants = carriers, storages, states, colors
-        return self._variants
+            self._add_variants(model, blue, g128, g256, red)
 
     def generate_devices(self):
         models_variants_ids = models.ModelVariant.objects.only("id")
@@ -122,16 +95,16 @@ class Command(BaseCommand):
         for model_variant in models_variants_1 + models_variants_2:
             create_device(model_variant)
 
-    def _add_variants(self, model):
+    def _add_variants(self, model, blue, g128, g256, red):
         self.stdout.write(
             self.style.NOTICE(f"Loading {model} variants"),
         )
-        for variant in product(*self.get_variants_values()):
+        for variant in product([g128, g256], [red, blue]):
             model_variant = models.ModelVariant.objects.create(
                 model=model,
                 price=random.randint(100, 1001),
             )
-            model_variant.variant.set(variant)
+            model_variant.values.set(variant)
 
     def _make(self, model, **fields):
         fields = dict(self._rewrite_fields(fields))
@@ -148,27 +121,3 @@ class Command(BaseCommand):
             if k in self.relations:
                 k += "Id"
             yield k, v
-
-    def handle_others(self, *args, **options):
-        with open(f"{self.data_folder}/others.json") as file:
-            data = json.load(file)
-        for company_name, products in data.items():
-            company = self._make(models.Company, name=company_name)
-            for product_name, spec in products.items():
-                category_name = spec["category"]
-                category = self._make(models.Category, name=category_name)
-                product_ = self._make(
-                    models.Product,
-                    companyId=company.id,
-                    categoryId=category.id,
-                    name=product_name,
-                )
-                for series_name, models_ in spec["series"].items():
-                    series = self._make(
-                        models.Series, name=series_name, productId=product_.id
-                    )
-                    for model_name in models_:
-                        model: models.Model = self._make(
-                            models.Model, name=model_name, seriesId=series.id,
-                        )
-                        self._add_variants(model)
