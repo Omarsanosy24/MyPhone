@@ -1,7 +1,11 @@
 FROM python:3.11-alpine
-RUN pip install poetry
+
 WORKDIR /app
-COPY pyproject.toml poetry.lock ./
-RUN poetry install
+
+COPY pyproject.toml poetry.lock scripts/build.sh ./
+
+RUN sh build.sh
+RUN poetry add gunicorn
 COPY . .
-CMD ["poe", "start"]
+
+CMD ["poetry", "run", "poe", "start"]

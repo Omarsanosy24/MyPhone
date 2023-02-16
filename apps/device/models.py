@@ -4,13 +4,10 @@ from apps.core.lib import models
 
 
 class ModelWithName(models.Model):
+    name: str
+
     class Meta:
         abstract = True
-
-    name = models.CharField(
-        max_length=32,
-        unique=True,
-    )
 
     def __str__(self):
         return self.name
@@ -26,14 +23,28 @@ class ModelWithNameAndImage(ModelWithName):
 
 
 class Company(ModelWithNameAndImage):
-    pass
+    name = models.CharField(
+        max_length=32,
+        unique=True,
+    )
 
 
 class Category(ModelWithNameAndImage):
-    pass
+    name = models.CharField(
+        max_length=32,
+        unique=True,
+    )
 
 
 class Product(ModelWithNameAndImage):
+    class Meta:
+        unique_together = [
+            ("name", "company"),
+        ]
+
+    name = models.CharField(
+        max_length=32,
+    )
     company = models.ForeignKey(
         Company,
     )
@@ -46,6 +57,14 @@ class Product(ModelWithNameAndImage):
 
 
 class Series(ModelWithNameAndImage):
+    class Meta:
+        unique_together = [
+            ("name", "product"),
+        ]
+
+    name = models.CharField(
+        max_length=32,
+    )
     product = models.ForeignKey(
         Product,
     )
@@ -57,6 +76,14 @@ class Series(ModelWithNameAndImage):
 
 
 class Model(ModelWithNameAndImage):
+    class Meta:
+        unique_together = [
+            ("name", "series"),
+        ]
+
+    name = models.CharField(
+        max_length=32,
+    )
     series = models.ForeignKey(
         Series,
     )
@@ -66,39 +93,42 @@ class Model(ModelWithNameAndImage):
 
 
 class VariantGroup(ModelWithName):
-    pass
+    name = models.CharField(
+        max_length=32,
+        unique=True,
+    )
 
 
-class VariantValue(models.Model):
+class VariantValue(ModelWithName):
     group = models.ForeignKey(
         VariantGroup,
     )
-    value = models.CharField(
+    name = models.CharField(
         max_length=32,
     )
 
     def __str__(self):
-        return f"{self.group}: {self.value}"
+        return f"{self.group}: {self.name}"
 
 
 class ModelVariant(models.Model):
     model = models.ForeignKey(
         Model,
     )
-    values = models.ManyToManyField(
+    variant = models.ManyToManyField(
         VariantValue,
     )
     price = models.FloatField()
 
     def __str__(self):
         s = str(self.model)
-        for variant in self.values.only("value").order_by("group__name"):
-            s = f"{s} {variant.value}"
+        for variant in self.variant.only("name").order_by("group__name"):
+            s = f"{s} {variant.name}"
         return s
 
     @property
     def variants(self):
-        return {value.group.name: value.value for value in self.values.all()}
+        return {value.group.name: value.name for value in self.variant.all()}
 
     @staticmethod
     def valid_variants(variants: list[VariantValue]) -> bool:

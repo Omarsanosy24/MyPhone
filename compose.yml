@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  django:
+    image: myphone
+    build: .
+    ports:
+      - "8000:8000"

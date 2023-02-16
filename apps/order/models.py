@@ -21,6 +21,7 @@ class Order(models.Model):
     )
     customer = models.ForeignKey(
         "customer.Customer",
+        null=True,
     )
 
     def get_price(self):

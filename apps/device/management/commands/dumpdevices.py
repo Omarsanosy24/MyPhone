@@ -13,13 +13,13 @@ class Command(BaseCommand):
     first_headers = [
         "company",
         "category",
-        "series",
         "product",
+        "series",
         "model",
-        "imageUrl",
     ]
     last_headers = [
         "price",
+        "imageUrl",
     ]
 
     def handle(self, *args, **options):

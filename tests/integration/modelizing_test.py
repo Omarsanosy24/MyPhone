@@ -23,7 +23,7 @@ def test_variant(db):
     )
 
     s7variant = device.ModelVariant.objects.create(model=s7, price=1)
-    s7variant.values.set([g128, blue])
+    s7variant.variant.set([g128, blue])
     s7variant.save()
     assert device.ModelVariant.valid_variants([g128, blue])
     assert not device.ModelVariant.valid_variants([red, blue])
@@ -51,7 +51,7 @@ def test_get_variants(db):
     red = device.VariantValue.objects.create(group=color, value="Red")
 
     xs_variant1 = device.ModelVariant.objects.create(model=xs, price=120)
-    xs_variant1.values.set([g256, blue])
+    xs_variant1.variant.set([g256, blue])
 
     assert services.get_variants(xs) == {
         "Storage": [
@@ -65,11 +65,16 @@ def test_get_variants(db):
     assert services.get_available_variants(xs) == []
     create_device(xs_variant1)
     assert services.get_available_variants(xs) == [
-        {"Color": "Blue", "Storage": "256G"},
+        {
+            "Color": "Blue",
+            "Storage": "256G",
+            "price": 120,
+            "id": xs_variant1.id,
+        },
     ]
 
-    xs_variant2 = device.ModelVariant.objects.create(model=xs, price=120)
-    xs_variant2.values.set([g128, red])
+    xs_variant2 = device.ModelVariant.objects.create(model=xs, price=80)
+    xs_variant2.variant.set([g128, red])
     create_device(xs_variant2)
 
     assert services.get_variants(xs) == {
@@ -83,8 +88,18 @@ def test_get_variants(db):
         ],
     }
     assert services.get_available_variants(xs) == [
-        {"Color": "Blue", "Storage": "256G"},
-        {"Color": "Red", "Storage": "128G"},
+        {
+            "Color": "Blue",
+            "Storage": "256G",
+            "price": 120,
+            "id": xs_variant1.id,
+        },
+        {
+            "Color": "Red",
+            "Storage": "128G",
+            "price": 80,
+            "id": xs_variant2.id,
+        },
     ]
 
 

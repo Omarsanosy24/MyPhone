@@ -36,27 +36,28 @@ def _get_or_create_model_variant(model, price, **variants):
         model=model,
         price=price,
     )[0]
-    model_variant.values.set(values)
+    model_variant.variant.set(values)
     return model_variant
 
 
 def get_variants(model):
-    model_variants = models.ModelVariant.objects.filter(model=model)
+    model_variants = models.ModelVariant.objects.filter(model=model).only("variant")
     groups = defaultdict(set)
     for item in model_variants:
-        for value in item.values.all():
-            groups[value.group.name].add(value.value)
+        for value in item.variant.all():
+            groups[value.group.name].add(value.name)
     return {group: sorted(groups[group]) for group in groups}
 
 
 def get_available_variants(model):
-    values = []
-    for dev in models.Device.objects.filter(model_variant__model=model):
-        values.append({
-            value.group.name: value.value
-            for value in dev.model_variant.values.all()
+    variants = []
+    for variant in models.ModelVariant.objects.filter(model=model, device__isnull=False):
+        variants.append({
+            "id": variant.id,
+            "price": variant.price,
+            **{value.group.name: value.name for value in variant.variant.all()}
         })
-    return values
+    return variants
 
 
 def create_device(model_variant):

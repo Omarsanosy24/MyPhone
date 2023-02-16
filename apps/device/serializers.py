@@ -16,6 +16,10 @@ class Product(serializers.ModelSerializer):
         fields = "__all__"
 
 
+class CompanyProducts(serializers.ModelSerializer):
+    products = serializers.make_serializer_class(Product)(many=True)
+
+
 class Series(serializers.ModelSerializer):
     productInfo = serializers.make_info_serializer(models.Product, "product", "name")
 

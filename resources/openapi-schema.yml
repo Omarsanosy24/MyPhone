@@ -370,6 +370,29 @@ paths:
       responses:
         '204':
           description: No response body
+  /api/device/categories/{id}/products:
+    get:
+      operationId: api_device_categories_products_retrieve
+      description: Retrieve all products for the current company.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this category.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Category'
+          description: ''
   /api/device/companies:
     get:
       operationId: api_device_companies_list
@@ -540,6 +563,29 @@ paths:
       responses:
         '204':
           description: No response body
+  /api/device/companies/{id}/products:
+    get:
+      operationId: api_device_companies_products_retrieve
+      description: Retrieve all products for the current company.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this company.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Company'
+          description: ''
   /api/device/devices:
     get:
       operationId: api_device_devices_list
@@ -1058,7 +1104,7 @@ paths:
       responses:
         '204':
           description: No response body
-  /api/device/models/{id}/available_variants:
+  /api/device/models/{id}/available-variants:
     get:
       operationId: api_device_models_available_variants_retrieve
       description: Retrieve the variants existing in stock for this model.
@@ -1081,10 +1127,13 @@ paths:
               schema:
                 $ref: '#/components/schemas/Model'
               examples:
-                ? ''
-                : value:
+                Sample:
+                  value:
                   - Storage: 256G
                     Color: Red
+                    price: '100'
+                    id: '1'
+                  summary: sample
           description: ''
   /api/device/models/{id}/variants:
     get:
@@ -1286,6 +1335,29 @@ paths:
       responses:
         '204':
           description: No response body
+  /api/device/products/{id}/series:
+    get:
+      operationId: api_device_products_series_retrieve
+      description: Retrieve all series for the current product.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this product.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
+          description: ''
   /api/device/series:
     get:
       operationId: api_device_series_list
@@ -1456,6 +1528,29 @@ paths:
       responses:
         '204':
           description: No response body
+  /api/device/series/{id}/models:
+    get:
+      operationId: api_device_series_models_retrieve
+      description: Retrieve all models for the current series.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: integer
+        description: A unique integer value identifying this series.
+        required: true
+      tags:
+      - api
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Series'
+          description: ''
   /api/device/variants-groups:
     get:
       operationId: api_device_variants_groups_list
@@ -2159,6 +2254,33 @@ paths:
       responses:
         '204':
           description: No response body
+  /api/orders/with-lines:
+    post:
+      operationId: api_orders_with_lines_create
+      tags:
+      - api
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Order'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/Order'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/Order'
+        required: true
+      security:
+      - cookieAuth: []
+      - basicAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Order'
+          description: ''
   /api/users:
     get:
       operationId: api_users_list
@@ -2403,15 +2525,25 @@ components:
         str:
           type: string
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
       required:
+      - deleted_by_cascade
       - id
       - imageUrl
+      - is_deleted
       - name
       - str
       - url
@@ -2440,15 +2572,25 @@ components:
         str:
           type: string
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
       required:
+      - deleted_by_cascade
       - id
       - imageUrl
+      - is_deleted
       - name
       - str
       - url
@@ -2477,6 +2619,14 @@ components:
         str:
           type: string
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         name:
           type: string
           maxLength: 128
@@ -2484,7 +2634,9 @@ components:
           type: string
       required:
       - address
+      - deleted_by_cascade
       - id
+      - is_deleted
       - name
       - str
       - url
@@ -2501,6 +2653,14 @@ components:
         str:
           type: string
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imei:
           type: string
           maxLength: 16
@@ -2512,8 +2672,10 @@ components:
           type: string
           format: uri
       required:
+      - deleted_by_cascade
       - id
       - imei
+      - is_deleted
       - model_variant
       - serial_number
       - str
@@ -2534,6 +2696,14 @@ components:
         sub_total:
           type: string
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         quantity:
           type: integer
           minimum: 1
@@ -2544,7 +2714,9 @@ components:
           type: string
           format: uri
       required:
+      - deleted_by_cascade
       - id
+      - is_deleted
       - model_variant
       - order
       - quantity
@@ -2568,18 +2740,28 @@ components:
           allOf:
           - $ref: '#/components/schemas/SeriesInfo'
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
         series:
           type: string
           format: uri
       required:
+      - deleted_by_cascade
       - id
       - imageUrl
+      - is_deleted
       - name
       - series
       - seriesInfo
@@ -2614,25 +2796,35 @@ components:
           allOf:
           - $ref: '#/components/schemas/ModelInfo'
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         price:
           type: number
           format: double
         model:
           type: string
           format: uri
-        values:
+        variant:
           type: array
           items:
             type: string
             format: uri
       required:
+      - deleted_by_cascade
       - id
+      - is_deleted
       - model
       - modelInfo
       - price
       - str
       - url
-      - values
+      - variant
     Order:
       type: object
       properties:
@@ -2654,6 +2846,14 @@ components:
           items:
             $ref: '#/components/schemas/Line'
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         type:
           $ref: '#/components/schemas/TypeEnum'
         reference:
@@ -2662,9 +2862,11 @@ components:
         customer:
           type: string
           format: uri
+          nullable: true
       required:
-      - customer
+      - deleted_by_cascade
       - id
+      - is_deleted
       - lines
       - price
       - reference
@@ -2944,12 +3146,20 @@ components:
         str:
           type: string
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
     PatchedCompany:
       type: object
       properties:
@@ -2963,12 +3173,20 @@ components:
         str:
           type: string
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
     PatchedCustomer:
       type: object
       properties:
@@ -2981,6 +3199,14 @@ components:
           readOnly: true
         str:
           type: string
+          readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
           readOnly: true
         name:
           type: string
@@ -2999,6 +3225,14 @@ components:
           readOnly: true
         str:
           type: string
+          readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
           readOnly: true
         imei:
           type: string
@@ -3026,6 +3260,14 @@ components:
         sub_total:
           type: string
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         quantity:
           type: integer
           minimum: 1
@@ -3052,12 +3294,20 @@ components:
           allOf:
           - $ref: '#/components/schemas/SeriesInfo'
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
         series:
           type: string
           format: uri
@@ -3078,13 +3328,21 @@ components:
           allOf:
           - $ref: '#/components/schemas/ModelInfo'
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         price:
           type: number
           format: double
         model:
           type: string
           format: uri
-        values:
+        variant:
           type: array
           items:
             type: string
@@ -3110,6 +3368,14 @@ components:
           items:
             $ref: '#/components/schemas/Line'
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         type:
           $ref: '#/components/schemas/TypeEnum'
         reference:
@@ -3118,6 +3384,7 @@ components:
         customer:
           type: string
           format: uri
+          nullable: true
     PatchedProduct:
       type: object
       properties:
@@ -3139,12 +3406,20 @@ components:
           allOf:
           - $ref: '#/components/schemas/CategoryInfo'
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
         company:
           type: string
           format: uri
@@ -3168,12 +3443,20 @@ components:
           allOf:
           - $ref: '#/components/schemas/ProductInfo'
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
         product:
           type: string
           format: uri
@@ -3212,6 +3495,14 @@ components:
         str:
           type: string
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         name:
           type: string
           maxLength: 32
@@ -3228,7 +3519,15 @@ components:
         str:
           type: string
           readOnly: true
-        value:
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
+        name:
           type: string
           maxLength: 32
         group:
@@ -3255,12 +3554,20 @@ components:
           allOf:
           - $ref: '#/components/schemas/CategoryInfo'
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
         company:
           type: string
           format: uri
@@ -3272,8 +3579,10 @@ components:
       - categoryInfo
       - company
       - companyInfo
+      - deleted_by_cascade
       - id
       - imageUrl
+      - is_deleted
       - name
       - str
       - url
@@ -3306,18 +3615,28 @@ components:
           allOf:
           - $ref: '#/components/schemas/ProductInfo'
           readOnly: true
-        name:
+        is_deleted:
           type: string
-          maxLength: 32
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         imageUrl:
           type: string
           maxLength: 128
+        name:
+          type: string
+          maxLength: 32
         product:
           type: string
           format: uri
       required:
+      - deleted_by_cascade
       - id
       - imageUrl
+      - is_deleted
       - name
       - product
       - productInfo
@@ -3379,11 +3698,21 @@ components:
         str:
           type: string
           readOnly: true
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
         name:
           type: string
           maxLength: 32
       required:
+      - deleted_by_cascade
       - id
+      - is_deleted
       - name
       - str
       - url
@@ -3400,18 +3729,28 @@ components:
         str:
           type: string
           readOnly: true
-        value:
+        is_deleted:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        deleted_by_cascade:
+          type: boolean
+          readOnly: true
+        name:
           type: string
           maxLength: 32
         group:
           type: string
           format: uri
       required:
+      - deleted_by_cascade
       - group
       - id
+      - is_deleted
+      - name
       - str
       - url
-      - value
   securitySchemes:
     basicAuth:
       type: http
